@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/choice_month.dir/exercises/choice_month.c.o  -o choice_month 

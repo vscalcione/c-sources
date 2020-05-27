@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/vscalcione/Scrivania/c-sources/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/vscalcione/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/vscalcione/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,43 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named supermarket_checkout
+# Target rules for targets named max_min_array
 
 # Build rule for target.
-supermarket_checkout: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 supermarket_checkout
-.PHONY : supermarket_checkout
+max_min_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 max_min_array
+.PHONY : max_min_array
 
 # fast build rule for target.
-supermarket_checkout/fast:
-	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/build
-.PHONY : supermarket_checkout/fast
+max_min_array/fast:
+	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/build
+.PHONY : max_min_array/fast
 
 #=============================================================================
-# Target rules for targets named scientific-calculator
+# Target rules for targets named choice_month
 
 # Build rule for target.
-scientific-calculator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 scientific-calculator
-.PHONY : scientific-calculator
+choice_month: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 choice_month
+.PHONY : choice_month
 
 # fast build rule for target.
-scientific-calculator/fast:
-	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/build
-.PHONY : scientific-calculator/fast
-
-#=============================================================================
-# Target rules for targets named hello-world
-
-# Build rule for target.
-hello-world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello-world
-.PHONY : hello-world
-
-# fast build rule for target.
-hello-world/fast:
-	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
-.PHONY : hello-world/fast
+choice_month/fast:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/build
+.PHONY : choice_month/fast
 
 #=============================================================================
 # Target rules for targets named array_disorder
@@ -176,17 +163,43 @@ dade_game/fast:
 .PHONY : dade_game/fast
 
 #=============================================================================
-# Target rules for targets named max_min_array
+# Target rules for targets named hello-world
 
 # Build rule for target.
-max_min_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 max_min_array
-.PHONY : max_min_array
+hello-world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello-world
+.PHONY : hello-world
 
 # fast build rule for target.
-max_min_array/fast:
-	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/build
-.PHONY : max_min_array/fast
+hello-world/fast:
+	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
+.PHONY : hello-world/fast
+
+#=============================================================================
+# Target rules for targets named fibonacci_sequence
+
+# Build rule for target.
+fibonacci_sequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_sequence
+.PHONY : fibonacci_sequence
+
+# fast build rule for target.
+fibonacci_sequence/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/build
+.PHONY : fibonacci_sequence/fast
+
+#=============================================================================
+# Target rules for targets named scientific-calculator
+
+# Build rule for target.
+scientific-calculator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scientific-calculator
+.PHONY : scientific-calculator
+
+# fast build rule for target.
+scientific-calculator/fast:
+	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/build
+.PHONY : scientific-calculator/fast
 
 #=============================================================================
 # Target rules for targets named cube
@@ -200,6 +213,32 @@ cube: cmake_check_build_system
 cube/fast:
 	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
 .PHONY : cube/fast
+
+#=============================================================================
+# Target rules for targets named supermarket_checkout
+
+# Build rule for target.
+supermarket_checkout: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 supermarket_checkout
+.PHONY : supermarket_checkout
+
+# fast build rule for target.
+supermarket_checkout/fast:
+	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/build
+.PHONY : supermarket_checkout/fast
+
+#=============================================================================
+# Target rules for targets named change_2_values
+
+# Build rule for target.
+change_2_values: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 change_2_values
+.PHONY : change_2_values
+
+# fast build rule for target.
+change_2_values/fast:
+	$(MAKE) -f CMakeFiles/change_2_values.dir/build.make CMakeFiles/change_2_values.dir/build
+.PHONY : change_2_values/fast
 
 array/array_disorder.o: array/array_disorder.c.o
 
@@ -255,6 +294,60 @@ array/max_min_array.c.s:
 	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/array/max_min_array.c.s
 .PHONY : array/max_min_array.c.s
 
+exercises/change_2_values.o: exercises/change_2_values.c.o
+
+.PHONY : exercises/change_2_values.o
+
+# target to build an object file
+exercises/change_2_values.c.o:
+	$(MAKE) -f CMakeFiles/change_2_values.dir/build.make CMakeFiles/change_2_values.dir/exercises/change_2_values.c.o
+.PHONY : exercises/change_2_values.c.o
+
+exercises/change_2_values.i: exercises/change_2_values.c.i
+
+.PHONY : exercises/change_2_values.i
+
+# target to preprocess a source file
+exercises/change_2_values.c.i:
+	$(MAKE) -f CMakeFiles/change_2_values.dir/build.make CMakeFiles/change_2_values.dir/exercises/change_2_values.c.i
+.PHONY : exercises/change_2_values.c.i
+
+exercises/change_2_values.s: exercises/change_2_values.c.s
+
+.PHONY : exercises/change_2_values.s
+
+# target to generate assembly for a file
+exercises/change_2_values.c.s:
+	$(MAKE) -f CMakeFiles/change_2_values.dir/build.make CMakeFiles/change_2_values.dir/exercises/change_2_values.c.s
+.PHONY : exercises/change_2_values.c.s
+
+exercises/choice_month.o: exercises/choice_month.c.o
+
+.PHONY : exercises/choice_month.o
+
+# target to build an object file
+exercises/choice_month.c.o:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/exercises/choice_month.c.o
+.PHONY : exercises/choice_month.c.o
+
+exercises/choice_month.i: exercises/choice_month.c.i
+
+.PHONY : exercises/choice_month.i
+
+# target to preprocess a source file
+exercises/choice_month.c.i:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/exercises/choice_month.c.i
+.PHONY : exercises/choice_month.c.i
+
+exercises/choice_month.s: exercises/choice_month.c.s
+
+.PHONY : exercises/choice_month.s
+
+# target to generate assembly for a file
+exercises/choice_month.c.s:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/exercises/choice_month.c.s
+.PHONY : exercises/choice_month.c.s
+
 exercises/cube.o: exercises/cube.c.o
 
 .PHONY : exercises/cube.o
@@ -308,6 +401,33 @@ exercises/dade_game.s: exercises/dade_game.c.s
 exercises/dade_game.c.s:
 	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/exercises/dade_game.c.s
 .PHONY : exercises/dade_game.c.s
+
+exercises/fibonacci_sequence.o: exercises/fibonacci_sequence.c.o
+
+.PHONY : exercises/fibonacci_sequence.o
+
+# target to build an object file
+exercises/fibonacci_sequence.c.o:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/exercises/fibonacci_sequence.c.o
+.PHONY : exercises/fibonacci_sequence.c.o
+
+exercises/fibonacci_sequence.i: exercises/fibonacci_sequence.c.i
+
+.PHONY : exercises/fibonacci_sequence.i
+
+# target to preprocess a source file
+exercises/fibonacci_sequence.c.i:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/exercises/fibonacci_sequence.c.i
+.PHONY : exercises/fibonacci_sequence.c.i
+
+exercises/fibonacci_sequence.s: exercises/fibonacci_sequence.c.s
+
+.PHONY : exercises/fibonacci_sequence.s
+
+# target to generate assembly for a file
+exercises/fibonacci_sequence.c.s:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/exercises/fibonacci_sequence.c.s
+.PHONY : exercises/fibonacci_sequence.c.s
 
 exercises/hello-world.o: exercises/hello-world.c.o
 
@@ -396,27 +516,39 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... supermarket_checkout"
-	@echo "... scientific-calculator"
 	@echo "... edit_cache"
-	@echo "... hello-world"
+	@echo "... max_min_array"
+	@echo "... rebuild_cache"
+	@echo "... choice_month"
 	@echo "... array_disorder"
 	@echo "... dade_game"
-	@echo "... max_min_array"
+	@echo "... hello-world"
+	@echo "... fibonacci_sequence"
+	@echo "... scientific-calculator"
 	@echo "... cube"
+	@echo "... supermarket_checkout"
+	@echo "... change_2_values"
 	@echo "... array/array_disorder.o"
 	@echo "... array/array_disorder.i"
 	@echo "... array/array_disorder.s"
 	@echo "... array/max_min_array.o"
 	@echo "... array/max_min_array.i"
 	@echo "... array/max_min_array.s"
+	@echo "... exercises/change_2_values.o"
+	@echo "... exercises/change_2_values.i"
+	@echo "... exercises/change_2_values.s"
+	@echo "... exercises/choice_month.o"
+	@echo "... exercises/choice_month.i"
+	@echo "... exercises/choice_month.s"
 	@echo "... exercises/cube.o"
 	@echo "... exercises/cube.i"
 	@echo "... exercises/cube.s"
 	@echo "... exercises/dade_game.o"
 	@echo "... exercises/dade_game.i"
 	@echo "... exercises/dade_game.s"
+	@echo "... exercises/fibonacci_sequence.o"
+	@echo "... exercises/fibonacci_sequence.i"
+	@echo "... exercises/fibonacci_sequence.s"
 	@echo "... exercises/hello-world.o"
 	@echo "... exercises/hello-world.i"
 	@echo "... exercises/hello-world.s"
