@@ -46,7 +46,6 @@ void loading_array (int size)
 	{
 		if (choice == 2)
 		{
-
 			srand(time(0));
 			for (int index = 0; index < size; index++)
 				array[index] = 1 + rand() % 100;
@@ -58,9 +57,7 @@ void printing_array(int array[], int size)
 {
 	printf("=================================\n");
 	for (int index = 0; index < size; index++)
-	{
 		printf("Element at position [%d] is %d\n", index, array[index]);
-	}
 }
 
 void array_disorder(int array[], int size)
