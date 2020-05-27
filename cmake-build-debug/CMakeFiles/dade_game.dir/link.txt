@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/dade_game.dir/exercises/dade_game.c.o  -o dade_game 

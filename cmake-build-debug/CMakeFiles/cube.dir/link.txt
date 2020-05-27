@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/cube.dir/exercises/cube.c.o  -o cube 

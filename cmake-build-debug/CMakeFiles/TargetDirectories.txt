@@ -1,0 +1,8 @@
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/scientific-calculator.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/hello-world.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array_disorder.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/dade_game.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/max_min_array.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/cube.dir
