@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named supermarket_checkout
+
+# Build rule for target.
+supermarket_checkout: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 supermarket_checkout
+.PHONY : supermarket_checkout
+
+# fast build rule for target.
+supermarket_checkout/fast:
+	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/build
+.PHONY : supermarket_checkout/fast
+
+#=============================================================================
 # Target rules for targets named scientific-calculator
 
 # Build rule for target.
@@ -350,6 +363,33 @@ exercises/scientific-calculator.c.s:
 	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/exercises/scientific-calculator.c.s
 .PHONY : exercises/scientific-calculator.c.s
 
+exercises/supermarket_checkout.o: exercises/supermarket_checkout.c.o
+
+.PHONY : exercises/supermarket_checkout.o
+
+# target to build an object file
+exercises/supermarket_checkout.c.o:
+	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/exercises/supermarket_checkout.c.o
+.PHONY : exercises/supermarket_checkout.c.o
+
+exercises/supermarket_checkout.i: exercises/supermarket_checkout.c.i
+
+.PHONY : exercises/supermarket_checkout.i
+
+# target to preprocess a source file
+exercises/supermarket_checkout.c.i:
+	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/exercises/supermarket_checkout.c.i
+.PHONY : exercises/supermarket_checkout.c.i
+
+exercises/supermarket_checkout.s: exercises/supermarket_checkout.c.s
+
+.PHONY : exercises/supermarket_checkout.s
+
+# target to generate assembly for a file
+exercises/supermarket_checkout.c.s:
+	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/exercises/supermarket_checkout.c.s
+.PHONY : exercises/supermarket_checkout.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -357,6 +397,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... supermarket_checkout"
 	@echo "... scientific-calculator"
 	@echo "... edit_cache"
 	@echo "... hello-world"
@@ -382,6 +423,9 @@ help:
 	@echo "... exercises/scientific-calculator.o"
 	@echo "... exercises/scientific-calculator.i"
 	@echo "... exercises/scientific-calculator.s"
+	@echo "... exercises/supermarket_checkout.o"
+	@echo "... exercises/supermarket_checkout.i"
+	@echo "... exercises/supermarket_checkout.s"
 .PHONY : help
 
 

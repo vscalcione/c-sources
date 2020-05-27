@@ -1,4 +1,5 @@
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/supermarket_checkout.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/scientific-calculator.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/hello-world.dir

@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/supermarket_checkout.dir/DependInfo.cmake"
   "CMakeFiles/scientific-calculator.dir/DependInfo.cmake"
   "CMakeFiles/hello-world.dir/DependInfo.cmake"
   "CMakeFiles/array_disorder.dir/DependInfo.cmake"
