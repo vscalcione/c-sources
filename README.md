@@ -11,7 +11,8 @@ If, on the other hand, you are on Linux systems, you can opt for the solution lo
 ###
 If use an IDE like CLion, you can run single file, otherwise, for compile and run a file, open a shell and type the command:
 ```bash
-$ gcc -o ${fileName} ${fileName}.c
+$ mkdir compiled-sources
+$ gcc -o compiled-sources/${fileName} ${fileName}.c
 ```
 
 At the end of this operation, if no error is printed on the screen, it means that the compilation was successful.
