@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vscalcione/Scrivania/c-sources/exercises/cube.c
+/home/vscalcione/Scrivania/c-sources/math-functions/cube.c
 stdio.h
 -
 math.h

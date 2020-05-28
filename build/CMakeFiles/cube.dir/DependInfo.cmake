@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/vscalcione/Scrivania/c-sources/exercises/cube.c" "/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/cube.dir/exercises/cube.c.o"
+  "/home/vscalcione/Scrivania/c-sources/math-functions/cube.c" "/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/cube.dir/math-functions/cube.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

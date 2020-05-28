@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/random_values_generator.dir/exercises/random_values_generator.c.o  -o random_values_generator 

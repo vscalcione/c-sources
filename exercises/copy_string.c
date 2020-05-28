@@ -11,9 +11,9 @@ void copy_string(char first_word[], char second_word[], int word1, int word2);
 int main() {
     printf("Copy string\n");
     printf("First string: ");
-    scanf("%s", &first_word);
+    scanf("%s", first_word);
     printf("Second string: ");
-    scanf("%s", &second_word);
+    scanf("%s", second_word);
     copy_string(first_word, second_word, word1, word2);
     printf("First string: %s", first_word);
     printf("\n");

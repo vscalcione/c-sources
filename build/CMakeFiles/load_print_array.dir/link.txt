@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/load_print_array.dir/array/load_print_array.c.o  -o load_print_array 
