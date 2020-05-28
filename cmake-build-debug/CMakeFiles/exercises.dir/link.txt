@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/exercises.dir/exercises/cube.c.o CMakeFiles/exercises.dir/exercises/supermarket_checkout.c.o CMakeFiles/exercises.dir/exercises/dade_game.c.o CMakeFiles/exercises.dir/exercises/hello-world.c.o CMakeFiles/exercises.dir/exercises/scientific-calculator.c.o  -o exercises 

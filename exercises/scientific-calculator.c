@@ -2,7 +2,7 @@
 #include <math.h>
 
 int choice;
-float first_value, second_value, value;
+float first_value, second_value, value, base, exponent;
 char tmp;
 
 void print_menu();
@@ -13,13 +13,14 @@ float quozient(float first_value, float second_value);
 float factorial(float value);
 float square(float value);
 float cube(float value);
+float base_at_exponent(float base, float exponent);
 
 int main() {
     do {
         print_menu();
         printf("Your choice: ");
         scanf("%d", &choice);
-        if (choice < 1 || choice > 7) {
+        if (choice < 1 || choice > 9) {
             printf("Error");
             printf("Your choice: ");
             scanf("%d", &choice);
@@ -63,6 +64,14 @@ int main() {
         }
 
         if (choice == 8) {
+            printf("Insert base: ");
+            scanf("%f", &base);
+            printf("Insert exponent: ");
+            scanf("%f", &exponent);
+            printf("Result is: %.2f\n", base_at_exponent(base, exponent));
+        }
+
+        if (choice == 9){
             printf("Quit program\n");
             break;
         }
@@ -85,7 +94,8 @@ void print_menu() {
     printf("5. Factorial\n");
     printf("6. Square\n");
     printf("7. Cube\n");
-    printf("8. Quit\n");
+    printf("8. Pow\n");
+    printf("9. Quit\n");
 }
 
 float sum(float first_value, float second_value) {
@@ -125,4 +135,12 @@ float square(float value) {
 
 float cube(float value) {
     return value * value * value;
+}
+
+float base_at_exponent(float base, float exponent){
+    if(exponent == 0){
+        return 1;
+    }else{
+        return base * pow(base, exponent - 1);
+    }
 }

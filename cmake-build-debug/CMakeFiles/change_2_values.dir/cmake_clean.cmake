@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/change_2_values.dir/exercises/change_2_values.c.o"
-  "change_2_values"
+  "CMakeFiles/change_2_values.dir/exercises/change_2_values.c.obj"
+  "change_2_values.exe"
+  "change_2_values.exe.manifest"
+  "change_2_values.lib"
   "change_2_values.pdb"
 )
 

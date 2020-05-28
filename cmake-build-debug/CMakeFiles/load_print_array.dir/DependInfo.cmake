@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/vscalcione/Scrivania/c-sources/array/load_print_array.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/load_print_array.dir/array/load_print_array.c.o"
+  "C:/Users/francesco/Desktop/c-project/c-sources/array/load_print_array.c" "C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/load_print_array.dir/array/load_print_array.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

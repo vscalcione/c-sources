@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello-world.dir/exercises/hello-world.c.o"
-  "hello-world"
+  "CMakeFiles/hello-world.dir/exercises/hello-world.c.obj"
+  "hello-world.exe"
+  "hello-world.exe.manifest"
+  "hello-world.lib"
   "hello-world.pdb"
 )
 

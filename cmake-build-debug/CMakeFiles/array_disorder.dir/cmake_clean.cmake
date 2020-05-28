@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/array_disorder.dir/array/array_disorder.c.o"
-  "array_disorder"
+  "CMakeFiles/array_disorder.dir/array/array_disorder.c.obj"
+  "array_disorder.exe"
+  "array_disorder.exe.manifest"
+  "array_disorder.lib"
   "array_disorder.pdb"
 )
 

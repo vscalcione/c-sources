@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/vscalcione/Scrivania/c-sources/exercises/dade_game.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/dade_game.dir/exercises/dade_game.c.o"
+  "C:/Users/francesco/Desktop/c-project/c-sources/exercises/dade_game.c" "C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/dade_game.dir/exercises/dade_game.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

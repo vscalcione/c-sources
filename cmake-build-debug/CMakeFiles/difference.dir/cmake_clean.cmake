@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/difference.dir/math-functions/difference.c.o"
-  "difference"
+  "CMakeFiles/difference.dir/math-functions/difference.c.obj"
+  "difference.exe"
+  "difference.exe.manifest"
+  "difference.lib"
   "difference.pdb"
 )
 

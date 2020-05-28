@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cube.dir/math-functions/cube.c.o"
-  "cube"
+  "CMakeFiles/cube.dir/math-functions/cube.c.obj"
+  "cube.exe"
+  "cube.exe.manifest"
+  "cube.lib"
   "cube.pdb"
 )
 

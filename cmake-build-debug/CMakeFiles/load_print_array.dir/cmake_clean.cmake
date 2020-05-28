@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/load_print_array.dir/array/load_print_array.c.o"
-  "load_print_array"
+  "CMakeFiles/load_print_array.dir/array/load_print_array.c.obj"
+  "load_print_array.exe"
+  "load_print_array.exe.manifest"
+  "load_print_array.lib"
   "load_print_array.pdb"
 )
 

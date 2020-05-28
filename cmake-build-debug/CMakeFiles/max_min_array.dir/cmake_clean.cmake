@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/max_min_array.dir/array/max_min_array.c.o"
-  "max_min_array"
+  "CMakeFiles/max_min_array.dir/array/max_min_array.c.obj"
+  "max_min_array.exe"
+  "max_min_array.exe.manifest"
+  "max_min_array.lib"
   "max_min_array.pdb"
 )
 

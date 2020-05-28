@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/change_2_values.dir/exercises/change_2_values.c.o  -o change_2_values 
