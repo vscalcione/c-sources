@@ -1,11 +1,13 @@
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/max_min_array.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/choice_month.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/fibonacci_sequence.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array_merge.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/max_min_array.dir
+/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/average_4_arrays.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array_disorder.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/dade_game.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/hello-world.dir
-/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/fibonacci_sequence.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/scientific-calculator.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/cube.dir
 /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/supermarket_checkout.dir

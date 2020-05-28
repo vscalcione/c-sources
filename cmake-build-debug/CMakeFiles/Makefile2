@@ -53,12 +53,14 @@ CMAKE_BINARY_DIR = /home/vscalcione/Scrivania/c-sources/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/max_min_array.dir/all
 all: CMakeFiles/choice_month.dir/all
+all: CMakeFiles/fibonacci_sequence.dir/all
+all: CMakeFiles/array_merge.dir/all
+all: CMakeFiles/max_min_array.dir/all
+all: CMakeFiles/average_4_arrays.dir/all
 all: CMakeFiles/array_disorder.dir/all
 all: CMakeFiles/dade_game.dir/all
 all: CMakeFiles/hello-world.dir/all
-all: CMakeFiles/fibonacci_sequence.dir/all
 all: CMakeFiles/scientific-calculator.dir/all
 all: CMakeFiles/cube.dir/all
 all: CMakeFiles/supermarket_checkout.dir/all
@@ -72,12 +74,14 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/max_min_array.dir/clean
 clean: CMakeFiles/choice_month.dir/clean
+clean: CMakeFiles/fibonacci_sequence.dir/clean
+clean: CMakeFiles/array_merge.dir/clean
+clean: CMakeFiles/max_min_array.dir/clean
+clean: CMakeFiles/average_4_arrays.dir/clean
 clean: CMakeFiles/array_disorder.dir/clean
 clean: CMakeFiles/dade_game.dir/clean
 clean: CMakeFiles/hello-world.dir/clean
-clean: CMakeFiles/fibonacci_sequence.dir/clean
 clean: CMakeFiles/scientific-calculator.dir/clean
 clean: CMakeFiles/cube.dir/clean
 clean: CMakeFiles/supermarket_checkout.dir/clean
@@ -86,13 +90,94 @@ clean: CMakeFiles/change_2_values.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/choice_month.dir
+
+# All Build rule for target.
+CMakeFiles/choice_month.dir/all:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/depend
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target choice_month"
+.PHONY : CMakeFiles/choice_month.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/choice_month.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/choice_month.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/choice_month.dir/rule
+
+# Convenience name for target.
+choice_month: CMakeFiles/choice_month.dir/rule
+
+.PHONY : choice_month
+
+# clean rule for target.
+CMakeFiles/choice_month.dir/clean:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/clean
+.PHONY : CMakeFiles/choice_month.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fibonacci_sequence.dir
+
+# All Build rule for target.
+CMakeFiles/fibonacci_sequence.dir/all:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/depend
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target fibonacci_sequence"
+.PHONY : CMakeFiles/fibonacci_sequence.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fibonacci_sequence.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fibonacci_sequence.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/fibonacci_sequence.dir/rule
+
+# Convenience name for target.
+fibonacci_sequence: CMakeFiles/fibonacci_sequence.dir/rule
+
+.PHONY : fibonacci_sequence
+
+# clean rule for target.
+CMakeFiles/fibonacci_sequence.dir/clean:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/clean
+.PHONY : CMakeFiles/fibonacci_sequence.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array_merge.dir
+
+# All Build rule for target.
+CMakeFiles/array_merge.dir/all:
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/depend
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target array_merge"
+.PHONY : CMakeFiles/array_merge.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array_merge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array_merge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/array_merge.dir/rule
+
+# Convenience name for target.
+array_merge: CMakeFiles/array_merge.dir/rule
+
+.PHONY : array_merge
+
+# clean rule for target.
+CMakeFiles/array_merge.dir/clean:
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/clean
+.PHONY : CMakeFiles/array_merge.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/max_min_array.dir
 
 # All Build rule for target.
 CMakeFiles/max_min_array.dir/all:
 	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/depend
 	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target max_min_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target max_min_array"
 .PHONY : CMakeFiles/max_min_array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,31 +198,31 @@ CMakeFiles/max_min_array.dir/clean:
 .PHONY : CMakeFiles/max_min_array.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/choice_month.dir
+# Target rules for target CMakeFiles/average_4_arrays.dir
 
 # All Build rule for target.
-CMakeFiles/choice_month.dir/all:
-	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/depend
-	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target choice_month"
-.PHONY : CMakeFiles/choice_month.dir/all
+CMakeFiles/average_4_arrays.dir/all:
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/depend
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target average_4_arrays"
+.PHONY : CMakeFiles/average_4_arrays.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/choice_month.dir/rule: cmake_check_build_system
+CMakeFiles/average_4_arrays.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/choice_month.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/average_4_arrays.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/choice_month.dir/rule
+.PHONY : CMakeFiles/average_4_arrays.dir/rule
 
 # Convenience name for target.
-choice_month: CMakeFiles/choice_month.dir/rule
+average_4_arrays: CMakeFiles/average_4_arrays.dir/rule
 
-.PHONY : choice_month
+.PHONY : average_4_arrays
 
 # clean rule for target.
-CMakeFiles/choice_month.dir/clean:
-	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/clean
-.PHONY : CMakeFiles/choice_month.dir/clean
+CMakeFiles/average_4_arrays.dir/clean:
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/clean
+.PHONY : CMakeFiles/average_4_arrays.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/array_disorder.dir
@@ -173,7 +258,7 @@ CMakeFiles/array_disorder.dir/clean:
 CMakeFiles/dade_game.dir/all:
 	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/depend
 	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target dade_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target dade_game"
 .PHONY : CMakeFiles/dade_game.dir/all
 
 # Build rule for subdir invocation for target.
@@ -200,7 +285,7 @@ CMakeFiles/dade_game.dir/clean:
 CMakeFiles/hello-world.dir/all:
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/depend
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target hello-world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target hello-world"
 .PHONY : CMakeFiles/hello-world.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,40 +306,13 @@ CMakeFiles/hello-world.dir/clean:
 .PHONY : CMakeFiles/hello-world.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fibonacci_sequence.dir
-
-# All Build rule for target.
-CMakeFiles/fibonacci_sequence.dir/all:
-	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/depend
-	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target fibonacci_sequence"
-.PHONY : CMakeFiles/fibonacci_sequence.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/fibonacci_sequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fibonacci_sequence.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/fibonacci_sequence.dir/rule
-
-# Convenience name for target.
-fibonacci_sequence: CMakeFiles/fibonacci_sequence.dir/rule
-
-.PHONY : fibonacci_sequence
-
-# clean rule for target.
-CMakeFiles/fibonacci_sequence.dir/clean:
-	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/clean
-.PHONY : CMakeFiles/fibonacci_sequence.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/scientific-calculator.dir
 
 # All Build rule for target.
 CMakeFiles/scientific-calculator.dir/all:
 	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/depend
 	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target scientific-calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target scientific-calculator"
 .PHONY : CMakeFiles/scientific-calculator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +339,7 @@ CMakeFiles/scientific-calculator.dir/clean:
 CMakeFiles/cube.dir/all:
 	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/depend
 	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target cube"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target cube"
 .PHONY : CMakeFiles/cube.dir/all
 
 # Build rule for subdir invocation for target.
@@ -308,7 +366,7 @@ CMakeFiles/cube.dir/clean:
 CMakeFiles/supermarket_checkout.dir/all:
 	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/depend
 	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target supermarket_checkout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target supermarket_checkout"
 .PHONY : CMakeFiles/supermarket_checkout.dir/all
 
 # Build rule for subdir invocation for target.
@@ -335,7 +393,7 @@ CMakeFiles/supermarket_checkout.dir/clean:
 CMakeFiles/change_2_values.dir/all:
 	$(MAKE) -f CMakeFiles/change_2_values.dir/build.make CMakeFiles/change_2_values.dir/depend
 	$(MAKE) -f CMakeFiles/change_2_values.dir/build.make CMakeFiles/change_2_values.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target change_2_values"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target change_2_values"
 .PHONY : CMakeFiles/change_2_values.dir/all
 
 # Build rule for subdir invocation for target.

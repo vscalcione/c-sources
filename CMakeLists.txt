@@ -6,6 +6,8 @@ set(CMAKE_C_STANDARD 99)
 ## Array directory
 add_executable(array_disorder ./array/array_disorder.c)
 add_executable(max_min_array ./array/max_min_array.c)
+add_executable(array_merge ./array/array_merge.c)
+add_executable(average_4_arrays ./array/average_4_arrays.c)
 
 ## Exercises directory
 add_executable(cube ./exercises/cube.c)

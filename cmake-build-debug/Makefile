@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named choice_month
+
+# Build rule for target.
+choice_month: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 choice_month
+.PHONY : choice_month
+
+# fast build rule for target.
+choice_month/fast:
+	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/build
+.PHONY : choice_month/fast
+
+#=============================================================================
+# Target rules for targets named fibonacci_sequence
+
+# Build rule for target.
+fibonacci_sequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_sequence
+.PHONY : fibonacci_sequence
+
+# fast build rule for target.
+fibonacci_sequence/fast:
+	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/build
+.PHONY : fibonacci_sequence/fast
+
+#=============================================================================
+# Target rules for targets named array_merge
+
+# Build rule for target.
+array_merge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array_merge
+.PHONY : array_merge
+
+# fast build rule for target.
+array_merge/fast:
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/build
+.PHONY : array_merge/fast
+
+#=============================================================================
 # Target rules for targets named max_min_array
 
 # Build rule for target.
@@ -124,17 +163,17 @@ max_min_array/fast:
 .PHONY : max_min_array/fast
 
 #=============================================================================
-# Target rules for targets named choice_month
+# Target rules for targets named average_4_arrays
 
 # Build rule for target.
-choice_month: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 choice_month
-.PHONY : choice_month
+average_4_arrays: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 average_4_arrays
+.PHONY : average_4_arrays
 
 # fast build rule for target.
-choice_month/fast:
-	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/build
-.PHONY : choice_month/fast
+average_4_arrays/fast:
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/build
+.PHONY : average_4_arrays/fast
 
 #=============================================================================
 # Target rules for targets named array_disorder
@@ -174,19 +213,6 @@ hello-world: cmake_check_build_system
 hello-world/fast:
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
 .PHONY : hello-world/fast
-
-#=============================================================================
-# Target rules for targets named fibonacci_sequence
-
-# Build rule for target.
-fibonacci_sequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fibonacci_sequence
-.PHONY : fibonacci_sequence
-
-# fast build rule for target.
-fibonacci_sequence/fast:
-	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/build
-.PHONY : fibonacci_sequence/fast
 
 #=============================================================================
 # Target rules for targets named scientific-calculator
@@ -266,6 +292,60 @@ array/array_disorder.s: array/array_disorder.c.s
 array/array_disorder.c.s:
 	$(MAKE) -f CMakeFiles/array_disorder.dir/build.make CMakeFiles/array_disorder.dir/array/array_disorder.c.s
 .PHONY : array/array_disorder.c.s
+
+array/array_merge.o: array/array_merge.c.o
+
+.PHONY : array/array_merge.o
+
+# target to build an object file
+array/array_merge.c.o:
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/array/array_merge.c.o
+.PHONY : array/array_merge.c.o
+
+array/array_merge.i: array/array_merge.c.i
+
+.PHONY : array/array_merge.i
+
+# target to preprocess a source file
+array/array_merge.c.i:
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/array/array_merge.c.i
+.PHONY : array/array_merge.c.i
+
+array/array_merge.s: array/array_merge.c.s
+
+.PHONY : array/array_merge.s
+
+# target to generate assembly for a file
+array/array_merge.c.s:
+	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/array/array_merge.c.s
+.PHONY : array/array_merge.c.s
+
+array/average_4_arrays.o: array/average_4_arrays.c.o
+
+.PHONY : array/average_4_arrays.o
+
+# target to build an object file
+array/average_4_arrays.c.o:
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.o
+.PHONY : array/average_4_arrays.c.o
+
+array/average_4_arrays.i: array/average_4_arrays.c.i
+
+.PHONY : array/average_4_arrays.i
+
+# target to preprocess a source file
+array/average_4_arrays.c.i:
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.i
+.PHONY : array/average_4_arrays.c.i
+
+array/average_4_arrays.s: array/average_4_arrays.c.s
+
+.PHONY : array/average_4_arrays.s
+
+# target to generate assembly for a file
+array/average_4_arrays.c.s:
+	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.s
+.PHONY : array/average_4_arrays.c.s
 
 array/max_min_array.o: array/max_min_array.c.o
 
@@ -517,13 +597,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... max_min_array"
 	@echo "... rebuild_cache"
 	@echo "... choice_month"
+	@echo "... fibonacci_sequence"
+	@echo "... array_merge"
+	@echo "... max_min_array"
+	@echo "... average_4_arrays"
 	@echo "... array_disorder"
 	@echo "... dade_game"
 	@echo "... hello-world"
-	@echo "... fibonacci_sequence"
 	@echo "... scientific-calculator"
 	@echo "... cube"
 	@echo "... supermarket_checkout"
@@ -531,6 +613,12 @@ help:
 	@echo "... array/array_disorder.o"
 	@echo "... array/array_disorder.i"
 	@echo "... array/array_disorder.s"
+	@echo "... array/array_merge.o"
+	@echo "... array/array_merge.i"
+	@echo "... array/array_merge.s"
+	@echo "... array/average_4_arrays.o"
+	@echo "... array/average_4_arrays.i"
+	@echo "... array/average_4_arrays.s"
 	@echo "... array/max_min_array.o"
 	@echo "... array/max_min_array.i"
 	@echo "... array/max_min_array.s"

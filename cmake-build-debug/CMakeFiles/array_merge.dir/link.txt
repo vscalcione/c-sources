@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/array_merge.dir/array/array_merge.c.o  -o array_merge 
