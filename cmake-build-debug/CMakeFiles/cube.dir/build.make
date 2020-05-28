@@ -57,27 +57,27 @@ include CMakeFiles/cube.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cube.dir/flags.make
 
-CMakeFiles/cube.dir/exercises/cube.c.o: CMakeFiles/cube.dir/flags.make
-CMakeFiles/cube.dir/exercises/cube.c.o: ../exercises/cube.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cube.dir/exercises/cube.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cube.dir/exercises/cube.c.o   -c /home/vscalcione/Scrivania/c-sources/exercises/cube.c
+CMakeFiles/cube.dir/math-functions/cube.c.o: CMakeFiles/cube.dir/flags.make
+CMakeFiles/cube.dir/math-functions/cube.c.o: ../math-functions/cube.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cube.dir/math-functions/cube.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cube.dir/math-functions/cube.c.o   -c /home/vscalcione/Scrivania/c-sources/math-functions/cube.c
 
-CMakeFiles/cube.dir/exercises/cube.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube.dir/exercises/cube.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vscalcione/Scrivania/c-sources/exercises/cube.c > CMakeFiles/cube.dir/exercises/cube.c.i
+CMakeFiles/cube.dir/math-functions/cube.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cube.dir/math-functions/cube.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vscalcione/Scrivania/c-sources/math-functions/cube.c > CMakeFiles/cube.dir/math-functions/cube.c.i
 
-CMakeFiles/cube.dir/exercises/cube.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube.dir/exercises/cube.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vscalcione/Scrivania/c-sources/exercises/cube.c -o CMakeFiles/cube.dir/exercises/cube.c.s
+CMakeFiles/cube.dir/math-functions/cube.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cube.dir/math-functions/cube.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vscalcione/Scrivania/c-sources/math-functions/cube.c -o CMakeFiles/cube.dir/math-functions/cube.c.s
 
 # Object files for target cube
 cube_OBJECTS = \
-"CMakeFiles/cube.dir/exercises/cube.c.o"
+"CMakeFiles/cube.dir/math-functions/cube.c.o"
 
 # External object files for target cube
 cube_EXTERNAL_OBJECTS =
 
-cube: CMakeFiles/cube.dir/exercises/cube.c.o
+cube: CMakeFiles/cube.dir/math-functions/cube.c.o
 cube: CMakeFiles/cube.dir/build.make
 cube: CMakeFiles/cube.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable cube"

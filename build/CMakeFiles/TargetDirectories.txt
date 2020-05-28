@@ -1,0 +1,14 @@
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/max_min_array.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/rebuild_cache.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/edit_cache.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/array_disorder.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/array_merge.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/average_4_arrays.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/cube.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/dade_game.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/hello-world.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/change_2_values.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/fibonacci_sequence.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/scientific-calculator.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/supermarket_checkout.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/choice_month.dir

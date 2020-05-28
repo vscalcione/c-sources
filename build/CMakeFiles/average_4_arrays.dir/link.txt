@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.o  -o average_4_arrays 

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/scientific-calculator.dir/exercises/scientific-calculator.c.o  -o scientific-calculator 

@@ -124,6 +124,19 @@ choice_month/fast:
 .PHONY : choice_month/fast
 
 #=============================================================================
+# Target rules for targets named random_values_generator
+
+# Build rule for target.
+random_values_generator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 random_values_generator
+.PHONY : random_values_generator
+
+# fast build rule for target.
+random_values_generator/fast:
+	$(MAKE) -f CMakeFiles/random_values_generator.dir/build.make CMakeFiles/random_values_generator.dir/build
+.PHONY : random_values_generator/fast
+
+#=============================================================================
 # Target rules for targets named fibonacci_sequence
 
 # Build rule for target.
@@ -135,6 +148,19 @@ fibonacci_sequence: cmake_check_build_system
 fibonacci_sequence/fast:
 	$(MAKE) -f CMakeFiles/fibonacci_sequence.dir/build.make CMakeFiles/fibonacci_sequence.dir/build
 .PHONY : fibonacci_sequence/fast
+
+#=============================================================================
+# Target rules for targets named difference
+
+# Build rule for target.
+difference: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 difference
+.PHONY : difference
+
+# fast build rule for target.
+difference/fast:
+	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/build
+.PHONY : difference/fast
 
 #=============================================================================
 # Target rules for targets named array_merge
@@ -189,6 +215,19 @@ array_disorder/fast:
 .PHONY : array_disorder/fast
 
 #=============================================================================
+# Target rules for targets named load_print_array
+
+# Build rule for target.
+load_print_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 load_print_array
+.PHONY : load_print_array
+
+# fast build rule for target.
+load_print_array/fast:
+	$(MAKE) -f CMakeFiles/load_print_array.dir/build.make CMakeFiles/load_print_array.dir/build
+.PHONY : load_print_array/fast
+
+#=============================================================================
 # Target rules for targets named dade_game
 
 # Build rule for target.
@@ -213,6 +252,19 @@ hello-world: cmake_check_build_system
 hello-world/fast:
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
 .PHONY : hello-world/fast
+
+#=============================================================================
+# Target rules for targets named copy_string
+
+# Build rule for target.
+copy_string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 copy_string
+.PHONY : copy_string
+
+# fast build rule for target.
+copy_string/fast:
+	$(MAKE) -f CMakeFiles/copy_string.dir/build.make CMakeFiles/copy_string.dir/build
+.PHONY : copy_string/fast
 
 #=============================================================================
 # Target rules for targets named scientific-calculator
@@ -347,6 +399,33 @@ array/average_4_arrays.c.s:
 	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.s
 .PHONY : array/average_4_arrays.c.s
 
+array/load_print_array.o: array/load_print_array.c.o
+
+.PHONY : array/load_print_array.o
+
+# target to build an object file
+array/load_print_array.c.o:
+	$(MAKE) -f CMakeFiles/load_print_array.dir/build.make CMakeFiles/load_print_array.dir/array/load_print_array.c.o
+.PHONY : array/load_print_array.c.o
+
+array/load_print_array.i: array/load_print_array.c.i
+
+.PHONY : array/load_print_array.i
+
+# target to preprocess a source file
+array/load_print_array.c.i:
+	$(MAKE) -f CMakeFiles/load_print_array.dir/build.make CMakeFiles/load_print_array.dir/array/load_print_array.c.i
+.PHONY : array/load_print_array.c.i
+
+array/load_print_array.s: array/load_print_array.c.s
+
+.PHONY : array/load_print_array.s
+
+# target to generate assembly for a file
+array/load_print_array.c.s:
+	$(MAKE) -f CMakeFiles/load_print_array.dir/build.make CMakeFiles/load_print_array.dir/array/load_print_array.c.s
+.PHONY : array/load_print_array.c.s
+
 array/max_min_array.o: array/max_min_array.c.o
 
 .PHONY : array/max_min_array.o
@@ -428,32 +507,32 @@ exercises/choice_month.c.s:
 	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/exercises/choice_month.c.s
 .PHONY : exercises/choice_month.c.s
 
-exercises/cube.o: exercises/cube.c.o
+exercises/copy_string.o: exercises/copy_string.c.o
 
-.PHONY : exercises/cube.o
+.PHONY : exercises/copy_string.o
 
 # target to build an object file
-exercises/cube.c.o:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/exercises/cube.c.o
-.PHONY : exercises/cube.c.o
+exercises/copy_string.c.o:
+	$(MAKE) -f CMakeFiles/copy_string.dir/build.make CMakeFiles/copy_string.dir/exercises/copy_string.c.o
+.PHONY : exercises/copy_string.c.o
 
-exercises/cube.i: exercises/cube.c.i
+exercises/copy_string.i: exercises/copy_string.c.i
 
-.PHONY : exercises/cube.i
+.PHONY : exercises/copy_string.i
 
 # target to preprocess a source file
-exercises/cube.c.i:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/exercises/cube.c.i
-.PHONY : exercises/cube.c.i
+exercises/copy_string.c.i:
+	$(MAKE) -f CMakeFiles/copy_string.dir/build.make CMakeFiles/copy_string.dir/exercises/copy_string.c.i
+.PHONY : exercises/copy_string.c.i
 
-exercises/cube.s: exercises/cube.c.s
+exercises/copy_string.s: exercises/copy_string.c.s
 
-.PHONY : exercises/cube.s
+.PHONY : exercises/copy_string.s
 
 # target to generate assembly for a file
-exercises/cube.c.s:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/exercises/cube.c.s
-.PHONY : exercises/cube.c.s
+exercises/copy_string.c.s:
+	$(MAKE) -f CMakeFiles/copy_string.dir/build.make CMakeFiles/copy_string.dir/exercises/copy_string.c.s
+.PHONY : exercises/copy_string.c.s
 
 exercises/dade_game.o: exercises/dade_game.c.o
 
@@ -536,6 +615,33 @@ exercises/hello-world.c.s:
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/exercises/hello-world.c.s
 .PHONY : exercises/hello-world.c.s
 
+exercises/random_values_generator.o: exercises/random_values_generator.c.o
+
+.PHONY : exercises/random_values_generator.o
+
+# target to build an object file
+exercises/random_values_generator.c.o:
+	$(MAKE) -f CMakeFiles/random_values_generator.dir/build.make CMakeFiles/random_values_generator.dir/exercises/random_values_generator.c.o
+.PHONY : exercises/random_values_generator.c.o
+
+exercises/random_values_generator.i: exercises/random_values_generator.c.i
+
+.PHONY : exercises/random_values_generator.i
+
+# target to preprocess a source file
+exercises/random_values_generator.c.i:
+	$(MAKE) -f CMakeFiles/random_values_generator.dir/build.make CMakeFiles/random_values_generator.dir/exercises/random_values_generator.c.i
+.PHONY : exercises/random_values_generator.c.i
+
+exercises/random_values_generator.s: exercises/random_values_generator.c.s
+
+.PHONY : exercises/random_values_generator.s
+
+# target to generate assembly for a file
+exercises/random_values_generator.c.s:
+	$(MAKE) -f CMakeFiles/random_values_generator.dir/build.make CMakeFiles/random_values_generator.dir/exercises/random_values_generator.c.s
+.PHONY : exercises/random_values_generator.c.s
+
 exercises/scientific-calculator.o: exercises/scientific-calculator.c.o
 
 .PHONY : exercises/scientific-calculator.o
@@ -590,6 +696,60 @@ exercises/supermarket_checkout.c.s:
 	$(MAKE) -f CMakeFiles/supermarket_checkout.dir/build.make CMakeFiles/supermarket_checkout.dir/exercises/supermarket_checkout.c.s
 .PHONY : exercises/supermarket_checkout.c.s
 
+math-functions/cube.o: math-functions/cube.c.o
+
+.PHONY : math-functions/cube.o
+
+# target to build an object file
+math-functions/cube.c.o:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/math-functions/cube.c.o
+.PHONY : math-functions/cube.c.o
+
+math-functions/cube.i: math-functions/cube.c.i
+
+.PHONY : math-functions/cube.i
+
+# target to preprocess a source file
+math-functions/cube.c.i:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/math-functions/cube.c.i
+.PHONY : math-functions/cube.c.i
+
+math-functions/cube.s: math-functions/cube.c.s
+
+.PHONY : math-functions/cube.s
+
+# target to generate assembly for a file
+math-functions/cube.c.s:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/math-functions/cube.c.s
+.PHONY : math-functions/cube.c.s
+
+math-functions/difference.o: math-functions/difference.c.o
+
+.PHONY : math-functions/difference.o
+
+# target to build an object file
+math-functions/difference.c.o:
+	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/math-functions/difference.c.o
+.PHONY : math-functions/difference.c.o
+
+math-functions/difference.i: math-functions/difference.c.i
+
+.PHONY : math-functions/difference.i
+
+# target to preprocess a source file
+math-functions/difference.c.i:
+	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/math-functions/difference.c.i
+.PHONY : math-functions/difference.c.i
+
+math-functions/difference.s: math-functions/difference.c.s
+
+.PHONY : math-functions/difference.s
+
+# target to generate assembly for a file
+math-functions/difference.c.s:
+	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/math-functions/difference.c.s
+.PHONY : math-functions/difference.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -599,13 +759,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... choice_month"
+	@echo "... random_values_generator"
 	@echo "... fibonacci_sequence"
+	@echo "... difference"
 	@echo "... array_merge"
 	@echo "... max_min_array"
 	@echo "... average_4_arrays"
 	@echo "... array_disorder"
+	@echo "... load_print_array"
 	@echo "... dade_game"
 	@echo "... hello-world"
+	@echo "... copy_string"
 	@echo "... scientific-calculator"
 	@echo "... cube"
 	@echo "... supermarket_checkout"
@@ -619,6 +783,9 @@ help:
 	@echo "... array/average_4_arrays.o"
 	@echo "... array/average_4_arrays.i"
 	@echo "... array/average_4_arrays.s"
+	@echo "... array/load_print_array.o"
+	@echo "... array/load_print_array.i"
+	@echo "... array/load_print_array.s"
 	@echo "... array/max_min_array.o"
 	@echo "... array/max_min_array.i"
 	@echo "... array/max_min_array.s"
@@ -628,9 +795,9 @@ help:
 	@echo "... exercises/choice_month.o"
 	@echo "... exercises/choice_month.i"
 	@echo "... exercises/choice_month.s"
-	@echo "... exercises/cube.o"
-	@echo "... exercises/cube.i"
-	@echo "... exercises/cube.s"
+	@echo "... exercises/copy_string.o"
+	@echo "... exercises/copy_string.i"
+	@echo "... exercises/copy_string.s"
 	@echo "... exercises/dade_game.o"
 	@echo "... exercises/dade_game.i"
 	@echo "... exercises/dade_game.s"
@@ -640,12 +807,21 @@ help:
 	@echo "... exercises/hello-world.o"
 	@echo "... exercises/hello-world.i"
 	@echo "... exercises/hello-world.s"
+	@echo "... exercises/random_values_generator.o"
+	@echo "... exercises/random_values_generator.i"
+	@echo "... exercises/random_values_generator.s"
 	@echo "... exercises/scientific-calculator.o"
 	@echo "... exercises/scientific-calculator.i"
 	@echo "... exercises/scientific-calculator.s"
 	@echo "... exercises/supermarket_checkout.o"
 	@echo "... exercises/supermarket_checkout.i"
 	@echo "... exercises/supermarket_checkout.s"
+	@echo "... math-functions/cube.o"
+	@echo "... math-functions/cube.i"
+	@echo "... math-functions/cube.s"
+	@echo "... math-functions/difference.o"
+	@echo "... math-functions/difference.i"
+	@echo "... math-functions/difference.s"
 .PHONY : help
 
 

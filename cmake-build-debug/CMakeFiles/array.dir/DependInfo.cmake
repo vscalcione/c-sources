@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/vscalcione/Scrivania/c-sources/array/array_disorder.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array.dir/array/array_disorder.c.o"
+  "/home/vscalcione/Scrivania/c-sources/array/array_merge.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array.dir/array/array_merge.c.o"
+  "/home/vscalcione/Scrivania/c-sources/array/average_4_arrays.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array.dir/array/average_4_arrays.c.o"
   "/home/vscalcione/Scrivania/c-sources/array/max_min_array.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/array.dir/array/max_min_array.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

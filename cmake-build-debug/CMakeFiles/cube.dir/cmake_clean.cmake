@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cube.dir/exercises/cube.c.o"
+  "CMakeFiles/cube.dir/math-functions/cube.c.o"
   "cube"
   "cube.pdb"
 )
