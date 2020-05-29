@@ -4,1070 +4,1148 @@
 	<Project>
 		<Option title="c_sources"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="scientific-calculator">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/scientific-calculator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
+			<Target title="sum_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/sum_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 scientific-calculator"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="scientific-calculator/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/scientific-calculator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
+			<Target title="sum_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/sum_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 scientific-calculator/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array_disorder">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/array_disorder.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 array_disorder"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array_disorder/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/array_disorder.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 array_disorder/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="choice_month">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/choice_month.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 choice_month"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="choice_month/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/choice_month.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 choice_month/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="change_2_values">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/change_2_values.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 change_2_values"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="change_2_values/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/change_2_values.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 change_2_values/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="factorial_recursive">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/factorial_recursive.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 factorial_recursive"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="factorial_recursive/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/factorial_recursive.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 factorial_recursive/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="load_print_array">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/load_print_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 load_print_array"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="load_print_array/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/load_print_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 load_print_array/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="dade_game">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/dade_game.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 dade_game"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="dade_game/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/dade_game.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 dade_game/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="max_min_array">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/max_min_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 max_min_array"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="max_min_array/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/max_min_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 max_min_array/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="fibonacci_sequence">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/fibonacci_sequence.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 fibonacci_sequence"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="fibonacci_sequence/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/fibonacci_sequence.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 fibonacci_sequence/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array_merge">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/array_merge.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 array_merge"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array_merge/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/array_merge.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 array_merge/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="average_4_arrays">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/average_4_arrays.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 average_4_arrays"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="average_4_arrays/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/average_4_arrays.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 average_4_arrays/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="copy_string">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/copy_string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 copy_string"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="copy_string/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/copy_string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 copy_string/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello-world">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/hello-world.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 hello-world"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello-world/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/hello-world.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 hello-world/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="parkimeter">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/parkimeter.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 parkimeter"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="parkimeter/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/parkimeter.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 parkimeter/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pow_recursive">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/pow_recursive.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 pow_recursive"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pow_recursive/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/pow_recursive.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 pow_recursive/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="phonebook">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/phonebook.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 phonebook"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="phonebook/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/phonebook.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 phonebook/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="random_values_generator">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/random_values_generator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 random_values_generator"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="random_values_generator/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/random_values_generator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 random_values_generator/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="supermarket_checkout">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/supermarket_checkout.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 supermarket_checkout"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="supermarket_checkout/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/supermarket_checkout.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 supermarket_checkout/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="cube">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/cube.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 cube"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="cube/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/cube.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 cube/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="difference">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/difference.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 difference"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="difference/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/difference.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 difference/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="occurrence_search_pointer">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/occurrence_search_pointer.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 occurrence_search_pointer"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="occurrence_search_pointer/fast">
-				<Option output="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/occurrence_search_pointer.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 occurrence_search_pointer/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\francesco\Desktop\c-project\c-sources\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="square_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/square_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 square_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="square_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/square_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 square_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ss">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/ss" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 ss"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ss/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/ss" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 ss/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quozient_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/quozient_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 quozient_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quozient_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/quozient_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 quozient_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="product_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/product_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="product_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/product_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="change_2_values">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/change_2_values" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 change_2_values"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="change_2_values/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/change_2_values" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 change_2_values/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="copy_string">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/copy_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 copy_string"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="copy_string/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/copy_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 copy_string/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="supermarket_checkout">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/supermarket_checkout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 supermarket_checkout"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="supermarket_checkout/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/supermarket_checkout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 supermarket_checkout/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cube">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/cube" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 cube"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cube/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/cube" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 cube/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="load_print_array">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/load_print_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 load_print_array"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="load_print_array/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/load_print_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 load_print_array/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array_disorder">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/array_disorder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_disorder"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array_disorder/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/array_disorder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_disorder/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="average_4_arrays">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/average_4_arrays" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 average_4_arrays"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="average_4_arrays/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/average_4_arrays" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 average_4_arrays/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="choice_month">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/choice_month" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 choice_month"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="choice_month/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/choice_month" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 choice_month/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array_merge">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/array_merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_merge"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array_merge/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/array_merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_merge/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pow_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/pow_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 pow_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pow_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/pow_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 pow_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asterisks_square">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/asterisks_square" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 asterisks_square"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asterisks_square/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/asterisks_square" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 asterisks_square/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dade_game">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/dade_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 dade_game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dade_game/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/dade_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 dade_game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubble_sorting">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/bubble_sorting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubble_sorting"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubble_sorting/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/bubble_sorting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubble_sorting/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibonacci_sequence">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/fibonacci_sequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci_sequence"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibonacci_sequence/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/fibonacci_sequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci_sequence/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scientific-calculator">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/scientific-calculator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 scientific-calculator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scientific-calculator/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/scientific-calculator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 scientific-calculator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random_values_generator">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/random_values_generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 random_values_generator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random_values_generator/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/random_values_generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 random_values_generator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parkimeter">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/parkimeter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 parkimeter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parkimeter/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/parkimeter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 parkimeter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="difference">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/difference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 difference"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="difference/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/difference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 difference/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/factorial_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/factorial_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="max_min_array">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/max_min_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 max_min_array"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="max_min_array/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/max_min_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 max_min_array/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occurrence_search_pointer">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/occurrence_search_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 occurrence_search_pointer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occurrence_search_pointer/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/occurrence_search_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 occurrence_search_pointer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/array/array_disorder.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/array/array_disorder.c">
 			<Option target="array_disorder"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/array/array_merge.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/array/array_merge.c">
 			<Option target="array_merge"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/array/average_4_arrays.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/array/average_4_arrays.c">
 			<Option target="average_4_arrays"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/array/load_print_array.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/array/bubble_sorting.c">
+			<Option target="bubble_sorting"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/array/load_print_array.c">
 			<Option target="load_print_array"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/array/max_min_array.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/array/max_min_array.c">
 			<Option target="max_min_array"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/change_2_values.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/asterisks_square.c">
+			<Option target="asterisks_square"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/change_2_values.c">
 			<Option target="change_2_values"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/choice_month.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/choice_month.c">
 			<Option target="choice_month"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/copy_string.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/copy_string.c">
 			<Option target="copy_string"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/dade_game.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/dade_game.c">
 			<Option target="dade_game"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/fibonacci_sequence.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/fibonacci_sequence.c">
 			<Option target="fibonacci_sequence"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/hello-world.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/hello-world.c">
 			<Option target="hello-world"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/parkimeter.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/parkimeter.c">
 			<Option target="parkimeter"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/phonebook.c">
-			<Option target="phonebook"/>
-		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/random_values_generator.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/random_values_generator.c">
 			<Option target="random_values_generator"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/scientific-calculator.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/scientific-calculator.c">
 			<Option target="scientific-calculator"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/exercises/supermarket_checkout.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/exercises/supermarket_checkout.c">
 			<Option target="supermarket_checkout"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/math-functions/cube.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/math-functions/cube.c">
 			<Option target="cube"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/math-functions/difference.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/math-functions/difference.c">
 			<Option target="difference"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/recursion/factorial_recursive.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/factorial_recursive.c">
 			<Option target="factorial_recursive"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/recursion/occurrence_search_pointers.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/occurrence_search_pointers.c">
 			<Option target="occurrence_search_pointer"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/recursion/pow_recursive.c">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/pow_recursive.c">
 			<Option target="pow_recursive"/>
 		</Unit>
-		<Unit filename="C:/Users/francesco/Desktop/c-project/c-sources/CMakeLists.txt">
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/product_recursive.c">
+			<Option target="product_recursive"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/quozient_recursive.c">
+			<Option target="quozient_recursive"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/recursion_complete.c">
+			<Option target="ss"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/square_recursive.c">
+			<Option target="square_recursive"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/sum_recursive.c">
+			<Option target="sum_recursive"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/array_merge.dir/array/array_merge.c.obj"
-  "array_merge.exe"
-  "array_merge.exe.manifest"
-  "array_merge.lib"
+  "CMakeFiles/array_merge.dir/array/array_merge.c.o"
+  "array_merge"
   "array_merge.pdb"
 )
 

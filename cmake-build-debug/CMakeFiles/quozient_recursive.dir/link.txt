@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/quozient_recursive.dir/recursion/quozient_recursive.c.o  -o quozient_recursive 

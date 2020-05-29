@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/occurrence_search_pointer.dir/recursion/occurrence_search_pointers.c.obj"
-  "occurrence_search_pointer.exe"
-  "occurrence_search_pointer.exe.manifest"
-  "occurrence_search_pointer.lib"
+  "CMakeFiles/occurrence_search_pointer.dir/recursion/occurrence_search_pointers.c.o"
+  "occurrence_search_pointer"
   "occurrence_search_pointer.pdb"
 )
 

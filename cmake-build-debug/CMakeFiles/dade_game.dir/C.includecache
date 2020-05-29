@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vscalcione/Scrivania/c-sources/exercises/dade_game.c
+stdio.h
+-
+math.h
+-
+time.h
+-
+string.h
+-
+stdlib.h
+-
+

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/francesco/Desktop/c-project/c-sources/exercises/copy_string.c" "C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/copy_string.dir/exercises/copy_string.c.obj"
+  "/home/vscalcione/Scrivania/c-sources/exercises/copy_string.c" "/home/vscalcione/Scrivania/c-sources/cmake-build-debug/CMakeFiles/copy_string.dir/exercises/copy_string.c.o"
   )
-set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

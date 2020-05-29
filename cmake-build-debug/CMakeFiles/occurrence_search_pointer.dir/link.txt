@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/occurrence_search_pointer.dir/recursion/occurrence_search_pointers.c.o  -o occurrence_search_pointer 

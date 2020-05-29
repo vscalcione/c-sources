@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dade_game.dir/exercises/dade_game.c.obj"
-  "dade_game.exe"
-  "dade_game.exe.manifest"
-  "dade_game.lib"
+  "CMakeFiles/dade_game.dir/exercises/dade_game.c.o"
+  "dade_game"
   "dade_game.pdb"
 )
 

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/ss.dir/recursion/recursion_complete.c.o  -o ss 

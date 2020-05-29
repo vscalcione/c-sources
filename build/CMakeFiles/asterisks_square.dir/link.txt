@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/asterisks_square.dir/exercises/asterisks_square.c.o  -o asterisks_square 

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fibonacci_sequence.dir/exercises/fibonacci_sequence.c.obj"
-  "fibonacci_sequence.exe"
-  "fibonacci_sequence.exe.manifest"
-  "fibonacci_sequence.lib"
+  "CMakeFiles/fibonacci_sequence.dir/exercises/fibonacci_sequence.c.o"
+  "fibonacci_sequence"
   "fibonacci_sequence.pdb"
 )
 

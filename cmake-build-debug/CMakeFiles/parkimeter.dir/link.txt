@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/parkimeter.dir/exercises/parkimeter.c.o  -o parkimeter 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/francesco/Desktop/c-project/c-sources/recursion/factorial_recursive.c
+/home/vscalcione/Scrivania/c-sources/recursion/factorial_recursive.c
 stdio.h
 -
 stdlib.h

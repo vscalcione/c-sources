@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/scientific-calculator.dir/exercises/scientific-calculator.c.obj"
-  "scientific-calculator.exe"
-  "scientific-calculator.exe.manifest"
-  "scientific-calculator.lib"
+  "CMakeFiles/scientific-calculator.dir/exercises/scientific-calculator.c.o"
+  "scientific-calculator"
   "scientific-calculator.pdb"
 )
 

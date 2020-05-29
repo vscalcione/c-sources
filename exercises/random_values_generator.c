@@ -11,10 +11,10 @@ int main() {
     printf("Random values generator\n");
     do{
         value = 1 + rand() % 100;
-        printf("");
+        printf(" ");
         printf("Value generated is %d\n", value);
         printf("Another randomv value generation? ");
-        scanf("%s", &choice);
+        scanf("%s", choice);
         if (strcmp(choice, no) == 0){
             break;
         }

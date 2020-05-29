@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/supermarket_checkout.dir/exercises/supermarket_checkout.c.obj"
-  "supermarket_checkout.exe"
-  "supermarket_checkout.exe.manifest"
-  "supermarket_checkout.lib"
+  "CMakeFiles/supermarket_checkout.dir/exercises/supermarket_checkout.c.o"
+  "supermarket_checkout"
   "supermarket_checkout.pdb"
 )
 

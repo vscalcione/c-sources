@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/copy_string.dir/exercises/copy_string.c.obj"
-  "copy_string.exe"
-  "copy_string.exe.manifest"
-  "copy_string.lib"
+  "CMakeFiles/copy_string.dir/exercises/copy_string.c.o"
+  "copy_string"
   "copy_string.pdb"
 )
 

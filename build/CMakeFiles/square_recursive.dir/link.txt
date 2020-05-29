@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/square_recursive.dir/recursion/square_recursive.c.o  -o square_recursive 

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/choice_month.dir/exercises/choice_month.c.obj"
-  "choice_month.exe"
-  "choice_month.exe.manifest"
-  "choice_month.lib"
+  "CMakeFiles/choice_month.dir/exercises/choice_month.c.o"
+  "choice_month"
   "choice_month.pdb"
 )
 

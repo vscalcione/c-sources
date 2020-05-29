@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/factorial_recursive.dir/recursion/factorial_recursive.c.o  -o factorial_recursive 

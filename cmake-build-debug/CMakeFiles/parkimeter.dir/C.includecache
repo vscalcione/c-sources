@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/francesco/Desktop/c-project/c-sources/exercises/parkimeter.c
+/home/vscalcione/Scrivania/c-sources/exercises/parkimeter.c
 stdio.h
 -
 stdlib.h

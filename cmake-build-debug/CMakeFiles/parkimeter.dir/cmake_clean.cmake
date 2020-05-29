@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/parkimeter.dir/exercises/parkimeter.c.obj"
-  "parkimeter.exe"
-  "parkimeter.exe.manifest"
-  "parkimeter.lib"
+  "CMakeFiles/parkimeter.dir/exercises/parkimeter.c.o"
+  "parkimeter"
   "parkimeter.pdb"
 )
 

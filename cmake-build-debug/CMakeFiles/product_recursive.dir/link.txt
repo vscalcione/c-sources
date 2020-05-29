@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/product_recursive.dir/recursion/product_recursive.c.o  -o product_recursive 

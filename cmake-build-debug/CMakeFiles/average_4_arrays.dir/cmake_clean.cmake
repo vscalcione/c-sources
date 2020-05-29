@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.obj"
-  "average_4_arrays.exe"
-  "average_4_arrays.exe.manifest"
-  "average_4_arrays.lib"
+  "CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.o"
+  "average_4_arrays"
   "average_4_arrays.pdb"
 )
 

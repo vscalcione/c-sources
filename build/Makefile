@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named square_recursive
+
+# Build rule for target.
+square_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 square_recursive
+.PHONY : square_recursive
+
+# fast build rule for target.
+square_recursive/fast:
+	$(MAKE) -f CMakeFiles/square_recursive.dir/build.make CMakeFiles/square_recursive.dir/build
+.PHONY : square_recursive/fast
+
+#=============================================================================
+# Target rules for targets named ss
+
+# Build rule for target.
+ss: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ss
+.PHONY : ss
+
+# fast build rule for target.
+ss/fast:
+	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/build
+.PHONY : ss/fast
+
+#=============================================================================
 # Target rules for targets named pow_recursive
 
 # Build rule for target.
@@ -150,6 +176,19 @@ difference/fast:
 .PHONY : difference/fast
 
 #=============================================================================
+# Target rules for targets named quozient_recursive
+
+# Build rule for target.
+quozient_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quozient_recursive
+.PHONY : quozient_recursive
+
+# fast build rule for target.
+quozient_recursive/fast:
+	$(MAKE) -f CMakeFiles/quozient_recursive.dir/build.make CMakeFiles/quozient_recursive.dir/build
+.PHONY : quozient_recursive/fast
+
+#=============================================================================
 # Target rules for targets named cube
 
 # Build rule for target.
@@ -161,6 +200,19 @@ cube: cmake_check_build_system
 cube/fast:
 	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
 .PHONY : cube/fast
+
+#=============================================================================
+# Target rules for targets named parkimeter
+
+# Build rule for target.
+parkimeter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parkimeter
+.PHONY : parkimeter
+
+# fast build rule for target.
+parkimeter/fast:
+	$(MAKE) -f CMakeFiles/parkimeter.dir/build.make CMakeFiles/parkimeter.dir/build
+.PHONY : parkimeter/fast
 
 #=============================================================================
 # Target rules for targets named max_min_array
@@ -189,6 +241,32 @@ copy_string/fast:
 .PHONY : copy_string/fast
 
 #=============================================================================
+# Target rules for targets named sum_recursive
+
+# Build rule for target.
+sum_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sum_recursive
+.PHONY : sum_recursive
+
+# fast build rule for target.
+sum_recursive/fast:
+	$(MAKE) -f CMakeFiles/sum_recursive.dir/build.make CMakeFiles/sum_recursive.dir/build
+.PHONY : sum_recursive/fast
+
+#=============================================================================
+# Target rules for targets named product_recursive
+
+# Build rule for target.
+product_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 product_recursive
+.PHONY : product_recursive
+
+# fast build rule for target.
+product_recursive/fast:
+	$(MAKE) -f CMakeFiles/product_recursive.dir/build.make CMakeFiles/product_recursive.dir/build
+.PHONY : product_recursive/fast
+
+#=============================================================================
 # Target rules for targets named array_disorder
 
 # Build rule for target.
@@ -215,6 +293,19 @@ array_merge/fast:
 .PHONY : array_merge/fast
 
 #=============================================================================
+# Target rules for targets named asterisks_square
+
+# Build rule for target.
+asterisks_square: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 asterisks_square
+.PHONY : asterisks_square
+
+# fast build rule for target.
+asterisks_square/fast:
+	$(MAKE) -f CMakeFiles/asterisks_square.dir/build.make CMakeFiles/asterisks_square.dir/build
+.PHONY : asterisks_square/fast
+
+#=============================================================================
 # Target rules for targets named average_4_arrays
 
 # Build rule for target.
@@ -228,6 +319,32 @@ average_4_arrays/fast:
 .PHONY : average_4_arrays/fast
 
 #=============================================================================
+# Target rules for targets named occurrence_search_pointer
+
+# Build rule for target.
+occurrence_search_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 occurrence_search_pointer
+.PHONY : occurrence_search_pointer
+
+# fast build rule for target.
+occurrence_search_pointer/fast:
+	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/build
+.PHONY : occurrence_search_pointer/fast
+
+#=============================================================================
+# Target rules for targets named dade_game
+
+# Build rule for target.
+dade_game: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dade_game
+.PHONY : dade_game
+
+# fast build rule for target.
+dade_game/fast:
+	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/build
+.PHONY : dade_game/fast
+
+#=============================================================================
 # Target rules for targets named load_print_array
 
 # Build rule for target.
@@ -239,6 +356,19 @@ load_print_array: cmake_check_build_system
 load_print_array/fast:
 	$(MAKE) -f CMakeFiles/load_print_array.dir/build.make CMakeFiles/load_print_array.dir/build
 .PHONY : load_print_array/fast
+
+#=============================================================================
+# Target rules for targets named bubble_sorting
+
+# Build rule for target.
+bubble_sorting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bubble_sorting
+.PHONY : bubble_sorting
+
+# fast build rule for target.
+bubble_sorting/fast:
+	$(MAKE) -f CMakeFiles/bubble_sorting.dir/build.make CMakeFiles/bubble_sorting.dir/build
+.PHONY : bubble_sorting/fast
 
 #=============================================================================
 # Target rules for targets named change_2_values
@@ -306,43 +436,17 @@ choice_month/fast:
 .PHONY : choice_month/fast
 
 #=============================================================================
-# Target rules for targets named occurrence_search_pointer
+# Target rules for targets named random_values_generator
 
 # Build rule for target.
-occurrence_search_pointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 occurrence_search_pointer
-.PHONY : occurrence_search_pointer
+random_values_generator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 random_values_generator
+.PHONY : random_values_generator
 
 # fast build rule for target.
-occurrence_search_pointer/fast:
-	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/build
-.PHONY : occurrence_search_pointer/fast
-
-#=============================================================================
-# Target rules for targets named dade_game
-
-# Build rule for target.
-dade_game: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dade_game
-.PHONY : dade_game
-
-# fast build rule for target.
-dade_game/fast:
-	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/build
-.PHONY : dade_game/fast
-
-#=============================================================================
-# Target rules for targets named parkimeter
-
-# Build rule for target.
-parkimeter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 parkimeter
-.PHONY : parkimeter
-
-# fast build rule for target.
-parkimeter/fast:
-	$(MAKE) -f CMakeFiles/parkimeter.dir/build.make CMakeFiles/parkimeter.dir/build
-.PHONY : parkimeter/fast
+random_values_generator/fast:
+	$(MAKE) -f CMakeFiles/random_values_generator.dir/build.make CMakeFiles/random_values_generator.dir/build
+.PHONY : random_values_generator/fast
 
 #=============================================================================
 # Target rules for targets named hello-world
@@ -356,19 +460,6 @@ hello-world: cmake_check_build_system
 hello-world/fast:
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
 .PHONY : hello-world/fast
-
-#=============================================================================
-# Target rules for targets named random_values_generator
-
-# Build rule for target.
-random_values_generator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 random_values_generator
-.PHONY : random_values_generator
-
-# fast build rule for target.
-random_values_generator/fast:
-	$(MAKE) -f CMakeFiles/random_values_generator.dir/build.make CMakeFiles/random_values_generator.dir/build
-.PHONY : random_values_generator/fast
 
 array/array_disorder.o: array/array_disorder.c.o
 
@@ -451,6 +542,33 @@ array/average_4_arrays.c.s:
 	$(MAKE) -f CMakeFiles/average_4_arrays.dir/build.make CMakeFiles/average_4_arrays.dir/array/average_4_arrays.c.s
 .PHONY : array/average_4_arrays.c.s
 
+array/bubble_sorting.o: array/bubble_sorting.c.o
+
+.PHONY : array/bubble_sorting.o
+
+# target to build an object file
+array/bubble_sorting.c.o:
+	$(MAKE) -f CMakeFiles/bubble_sorting.dir/build.make CMakeFiles/bubble_sorting.dir/array/bubble_sorting.c.o
+.PHONY : array/bubble_sorting.c.o
+
+array/bubble_sorting.i: array/bubble_sorting.c.i
+
+.PHONY : array/bubble_sorting.i
+
+# target to preprocess a source file
+array/bubble_sorting.c.i:
+	$(MAKE) -f CMakeFiles/bubble_sorting.dir/build.make CMakeFiles/bubble_sorting.dir/array/bubble_sorting.c.i
+.PHONY : array/bubble_sorting.c.i
+
+array/bubble_sorting.s: array/bubble_sorting.c.s
+
+.PHONY : array/bubble_sorting.s
+
+# target to generate assembly for a file
+array/bubble_sorting.c.s:
+	$(MAKE) -f CMakeFiles/bubble_sorting.dir/build.make CMakeFiles/bubble_sorting.dir/array/bubble_sorting.c.s
+.PHONY : array/bubble_sorting.c.s
+
 array/load_print_array.o: array/load_print_array.c.o
 
 .PHONY : array/load_print_array.o
@@ -504,6 +622,33 @@ array/max_min_array.s: array/max_min_array.c.s
 array/max_min_array.c.s:
 	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/array/max_min_array.c.s
 .PHONY : array/max_min_array.c.s
+
+exercises/asterisks_square.o: exercises/asterisks_square.c.o
+
+.PHONY : exercises/asterisks_square.o
+
+# target to build an object file
+exercises/asterisks_square.c.o:
+	$(MAKE) -f CMakeFiles/asterisks_square.dir/build.make CMakeFiles/asterisks_square.dir/exercises/asterisks_square.c.o
+.PHONY : exercises/asterisks_square.c.o
+
+exercises/asterisks_square.i: exercises/asterisks_square.c.i
+
+.PHONY : exercises/asterisks_square.i
+
+# target to preprocess a source file
+exercises/asterisks_square.c.i:
+	$(MAKE) -f CMakeFiles/asterisks_square.dir/build.make CMakeFiles/asterisks_square.dir/exercises/asterisks_square.c.i
+.PHONY : exercises/asterisks_square.c.i
+
+exercises/asterisks_square.s: exercises/asterisks_square.c.s
+
+.PHONY : exercises/asterisks_square.s
+
+# target to generate assembly for a file
+exercises/asterisks_square.c.s:
+	$(MAKE) -f CMakeFiles/asterisks_square.dir/build.make CMakeFiles/asterisks_square.dir/exercises/asterisks_square.c.s
+.PHONY : exercises/asterisks_square.c.s
 
 exercises/change_2_values.o: exercises/change_2_values.c.o
 
@@ -910,6 +1055,141 @@ recursion/pow_recursive.c.s:
 	$(MAKE) -f CMakeFiles/pow_recursive.dir/build.make CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.s
 .PHONY : recursion/pow_recursive.c.s
 
+recursion/product_recursive.o: recursion/product_recursive.c.o
+
+.PHONY : recursion/product_recursive.o
+
+# target to build an object file
+recursion/product_recursive.c.o:
+	$(MAKE) -f CMakeFiles/product_recursive.dir/build.make CMakeFiles/product_recursive.dir/recursion/product_recursive.c.o
+.PHONY : recursion/product_recursive.c.o
+
+recursion/product_recursive.i: recursion/product_recursive.c.i
+
+.PHONY : recursion/product_recursive.i
+
+# target to preprocess a source file
+recursion/product_recursive.c.i:
+	$(MAKE) -f CMakeFiles/product_recursive.dir/build.make CMakeFiles/product_recursive.dir/recursion/product_recursive.c.i
+.PHONY : recursion/product_recursive.c.i
+
+recursion/product_recursive.s: recursion/product_recursive.c.s
+
+.PHONY : recursion/product_recursive.s
+
+# target to generate assembly for a file
+recursion/product_recursive.c.s:
+	$(MAKE) -f CMakeFiles/product_recursive.dir/build.make CMakeFiles/product_recursive.dir/recursion/product_recursive.c.s
+.PHONY : recursion/product_recursive.c.s
+
+recursion/quozient_recursive.o: recursion/quozient_recursive.c.o
+
+.PHONY : recursion/quozient_recursive.o
+
+# target to build an object file
+recursion/quozient_recursive.c.o:
+	$(MAKE) -f CMakeFiles/quozient_recursive.dir/build.make CMakeFiles/quozient_recursive.dir/recursion/quozient_recursive.c.o
+.PHONY : recursion/quozient_recursive.c.o
+
+recursion/quozient_recursive.i: recursion/quozient_recursive.c.i
+
+.PHONY : recursion/quozient_recursive.i
+
+# target to preprocess a source file
+recursion/quozient_recursive.c.i:
+	$(MAKE) -f CMakeFiles/quozient_recursive.dir/build.make CMakeFiles/quozient_recursive.dir/recursion/quozient_recursive.c.i
+.PHONY : recursion/quozient_recursive.c.i
+
+recursion/quozient_recursive.s: recursion/quozient_recursive.c.s
+
+.PHONY : recursion/quozient_recursive.s
+
+# target to generate assembly for a file
+recursion/quozient_recursive.c.s:
+	$(MAKE) -f CMakeFiles/quozient_recursive.dir/build.make CMakeFiles/quozient_recursive.dir/recursion/quozient_recursive.c.s
+.PHONY : recursion/quozient_recursive.c.s
+
+recursion/recursion_complete.o: recursion/recursion_complete.c.o
+
+.PHONY : recursion/recursion_complete.o
+
+# target to build an object file
+recursion/recursion_complete.c.o:
+	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.o
+.PHONY : recursion/recursion_complete.c.o
+
+recursion/recursion_complete.i: recursion/recursion_complete.c.i
+
+.PHONY : recursion/recursion_complete.i
+
+# target to preprocess a source file
+recursion/recursion_complete.c.i:
+	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.i
+.PHONY : recursion/recursion_complete.c.i
+
+recursion/recursion_complete.s: recursion/recursion_complete.c.s
+
+.PHONY : recursion/recursion_complete.s
+
+# target to generate assembly for a file
+recursion/recursion_complete.c.s:
+	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.s
+.PHONY : recursion/recursion_complete.c.s
+
+recursion/square_recursive.o: recursion/square_recursive.c.o
+
+.PHONY : recursion/square_recursive.o
+
+# target to build an object file
+recursion/square_recursive.c.o:
+	$(MAKE) -f CMakeFiles/square_recursive.dir/build.make CMakeFiles/square_recursive.dir/recursion/square_recursive.c.o
+.PHONY : recursion/square_recursive.c.o
+
+recursion/square_recursive.i: recursion/square_recursive.c.i
+
+.PHONY : recursion/square_recursive.i
+
+# target to preprocess a source file
+recursion/square_recursive.c.i:
+	$(MAKE) -f CMakeFiles/square_recursive.dir/build.make CMakeFiles/square_recursive.dir/recursion/square_recursive.c.i
+.PHONY : recursion/square_recursive.c.i
+
+recursion/square_recursive.s: recursion/square_recursive.c.s
+
+.PHONY : recursion/square_recursive.s
+
+# target to generate assembly for a file
+recursion/square_recursive.c.s:
+	$(MAKE) -f CMakeFiles/square_recursive.dir/build.make CMakeFiles/square_recursive.dir/recursion/square_recursive.c.s
+.PHONY : recursion/square_recursive.c.s
+
+recursion/sum_recursive.o: recursion/sum_recursive.c.o
+
+.PHONY : recursion/sum_recursive.o
+
+# target to build an object file
+recursion/sum_recursive.c.o:
+	$(MAKE) -f CMakeFiles/sum_recursive.dir/build.make CMakeFiles/sum_recursive.dir/recursion/sum_recursive.c.o
+.PHONY : recursion/sum_recursive.c.o
+
+recursion/sum_recursive.i: recursion/sum_recursive.c.i
+
+.PHONY : recursion/sum_recursive.i
+
+# target to preprocess a source file
+recursion/sum_recursive.c.i:
+	$(MAKE) -f CMakeFiles/sum_recursive.dir/build.make CMakeFiles/sum_recursive.dir/recursion/sum_recursive.c.i
+.PHONY : recursion/sum_recursive.c.i
+
+recursion/sum_recursive.s: recursion/sum_recursive.c.s
+
+.PHONY : recursion/sum_recursive.s
+
+# target to generate assembly for a file
+recursion/sum_recursive.c.s:
+	$(MAKE) -f CMakeFiles/sum_recursive.dir/build.make CMakeFiles/sum_recursive.dir/recursion/sum_recursive.c.s
+.PHONY : recursion/sum_recursive.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -918,26 +1198,33 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... square_recursive"
+	@echo "... ss"
 	@echo "... pow_recursive"
 	@echo "... factorial_recursive"
 	@echo "... difference"
+	@echo "... quozient_recursive"
 	@echo "... cube"
+	@echo "... parkimeter"
 	@echo "... max_min_array"
 	@echo "... copy_string"
+	@echo "... sum_recursive"
+	@echo "... product_recursive"
 	@echo "... array_disorder"
 	@echo "... array_merge"
+	@echo "... asterisks_square"
 	@echo "... average_4_arrays"
+	@echo "... occurrence_search_pointer"
+	@echo "... dade_game"
 	@echo "... load_print_array"
+	@echo "... bubble_sorting"
 	@echo "... change_2_values"
 	@echo "... fibonacci_sequence"
 	@echo "... supermarket_checkout"
 	@echo "... scientific-calculator"
 	@echo "... choice_month"
-	@echo "... occurrence_search_pointer"
-	@echo "... dade_game"
-	@echo "... parkimeter"
-	@echo "... hello-world"
 	@echo "... random_values_generator"
+	@echo "... hello-world"
 	@echo "... array/array_disorder.o"
 	@echo "... array/array_disorder.i"
 	@echo "... array/array_disorder.s"
@@ -947,12 +1234,18 @@ help:
 	@echo "... array/average_4_arrays.o"
 	@echo "... array/average_4_arrays.i"
 	@echo "... array/average_4_arrays.s"
+	@echo "... array/bubble_sorting.o"
+	@echo "... array/bubble_sorting.i"
+	@echo "... array/bubble_sorting.s"
 	@echo "... array/load_print_array.o"
 	@echo "... array/load_print_array.i"
 	@echo "... array/load_print_array.s"
 	@echo "... array/max_min_array.o"
 	@echo "... array/max_min_array.i"
 	@echo "... array/max_min_array.s"
+	@echo "... exercises/asterisks_square.o"
+	@echo "... exercises/asterisks_square.i"
+	@echo "... exercises/asterisks_square.s"
 	@echo "... exercises/change_2_values.o"
 	@echo "... exercises/change_2_values.i"
 	@echo "... exercises/change_2_values.s"
@@ -998,6 +1291,21 @@ help:
 	@echo "... recursion/pow_recursive.o"
 	@echo "... recursion/pow_recursive.i"
 	@echo "... recursion/pow_recursive.s"
+	@echo "... recursion/product_recursive.o"
+	@echo "... recursion/product_recursive.i"
+	@echo "... recursion/product_recursive.s"
+	@echo "... recursion/quozient_recursive.o"
+	@echo "... recursion/quozient_recursive.i"
+	@echo "... recursion/quozient_recursive.s"
+	@echo "... recursion/recursion_complete.o"
+	@echo "... recursion/recursion_complete.i"
+	@echo "... recursion/recursion_complete.s"
+	@echo "... recursion/square_recursive.o"
+	@echo "... recursion/square_recursive.i"
+	@echo "... recursion/square_recursive.s"
+	@echo "... recursion/sum_recursive.o"
+	@echo "... recursion/sum_recursive.i"
+	@echo "... recursion/sum_recursive.s"
 .PHONY : help
 
 

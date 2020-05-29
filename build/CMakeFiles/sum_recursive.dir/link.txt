@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/sum_recursive.dir/recursion/sum_recursive.c.o  -o sum_recursive 

@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/francesco/Desktop/c-project/c-sources/recursion/occurrence_search_pointers.c
+/home/vscalcione/Scrivania/c-sources/recursion/occurrence_search_pointers.c
 stdio.h
 -
 stdlib.h
--
-math.h
 -
 time.h
 -

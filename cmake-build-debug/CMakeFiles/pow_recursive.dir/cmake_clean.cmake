@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.obj"
-  "pow_recursive.exe"
-  "pow_recursive.exe.manifest"
-  "pow_recursive.lib"
+  "CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.o"
+  "pow_recursive"
   "pow_recursive.pdb"
 )
 

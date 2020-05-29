@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/factorial_recursive.dir/recursion/factorial_recursive.c.obj"
-  "factorial_recursive.exe"
-  "factorial_recursive.exe.manifest"
-  "factorial_recursive.lib"
+  "CMakeFiles/factorial_recursive.dir/recursion/factorial_recursive.c.o"
+  "factorial_recursive"
   "factorial_recursive.pdb"
 )
 
