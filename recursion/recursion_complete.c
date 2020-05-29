@@ -12,13 +12,17 @@ int square_recursive (int value);
 int cube_recursive (int value);
 int pow_recursive (int base, int exponent);
 
-int main(void){
+int main(){
     do {
         printf("Recursion program\n");
         print_menu();
         printf("Your choice: ");
         scanf("%d", &choice);
-        if (choice < 1 || choice > 5)
+        if (choice == 8){
+            printf("Quit program\n");
+            break;
+        }
+        if (choice < 1 || choice > 8)
             printf("Error\n");
     }
     while(choice < 1 || choice > 5);
@@ -84,10 +88,11 @@ void print_menu () {
     printf("1. Factorial \n");
     printf("2. Sum \n");
     printf("3. Product \n");
-    printf("3. Quozient \n");
-    printf("3. Square \n");
-    printf("3. Cube \n");
-    printf("4. Pow \n");
+    printf("4. Quozient \n");
+    printf("5. Square \n");
+    printf("6. Cube \n");
+    printf("7. Pow \n");
+    printf("8. Quit program\n");
 }
 
 int factorial_recursive (int value){

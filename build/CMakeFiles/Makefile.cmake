@@ -42,7 +42,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/square_recursive.dir/DependInfo.cmake"
-  "CMakeFiles/ss.dir/DependInfo.cmake"
+  "CMakeFiles/recursion_complete.dir/DependInfo.cmake"
   "CMakeFiles/pow_recursive.dir/DependInfo.cmake"
   "CMakeFiles/factorial_recursive.dir/DependInfo.cmake"
   "CMakeFiles/difference.dir/DependInfo.cmake"

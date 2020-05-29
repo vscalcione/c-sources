@@ -124,17 +124,17 @@ square_recursive/fast:
 .PHONY : square_recursive/fast
 
 #=============================================================================
-# Target rules for targets named ss
+# Target rules for targets named recursion_complete
 
 # Build rule for target.
-ss: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ss
-.PHONY : ss
+recursion_complete: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 recursion_complete
+.PHONY : recursion_complete
 
 # fast build rule for target.
-ss/fast:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/build
-.PHONY : ss/fast
+recursion_complete/fast:
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/build
+.PHONY : recursion_complete/fast
 
 #=============================================================================
 # Target rules for targets named pow_recursive
@@ -1115,7 +1115,7 @@ recursion/recursion_complete.o: recursion/recursion_complete.c.o
 
 # target to build an object file
 recursion/recursion_complete.c.o:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.o
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/recursion/recursion_complete.c.o
 .PHONY : recursion/recursion_complete.c.o
 
 recursion/recursion_complete.i: recursion/recursion_complete.c.i
@@ -1124,7 +1124,7 @@ recursion/recursion_complete.i: recursion/recursion_complete.c.i
 
 # target to preprocess a source file
 recursion/recursion_complete.c.i:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.i
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/recursion/recursion_complete.c.i
 .PHONY : recursion/recursion_complete.c.i
 
 recursion/recursion_complete.s: recursion/recursion_complete.c.s
@@ -1133,7 +1133,7 @@ recursion/recursion_complete.s: recursion/recursion_complete.c.s
 
 # target to generate assembly for a file
 recursion/recursion_complete.c.s:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.s
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/recursion/recursion_complete.c.s
 .PHONY : recursion/recursion_complete.c.s
 
 recursion/square_recursive.o: recursion/square_recursive.c.o
@@ -1199,7 +1199,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... square_recursive"
-	@echo "... ss"
+	@echo "... recursion_complete"
 	@echo "... pow_recursive"
 	@echo "... factorial_recursive"
 	@echo "... difference"

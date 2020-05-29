@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/pointer_complete.dir/pointers/pointer_complete.c.o  -o pointer_complete 

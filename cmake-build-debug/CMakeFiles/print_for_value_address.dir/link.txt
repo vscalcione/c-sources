@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/print_for_value_address.dir/pointers/print_for_value_address.c.o  -o print_for_value_address 

@@ -103,8 +103,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ss">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/ss" prefix_auto="0" extension_auto="0"/>
+			<Target title="recursion_complete">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/recursion_complete" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -116,14 +116,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 ss"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursion_complete"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ss/fast">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/ss" prefix_auto="0" extension_auto="0"/>
+			<Target title="recursion_complete/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/recursion_complete" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -135,7 +135,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 ss/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursion_complete/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -212,6 +212,44 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 product_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scientific_calculator_pointers">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/scientific_calculator_pointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 scientific_calculator_pointers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scientific_calculator_pointers/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/scientific_calculator_pointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 scientific_calculator_pointers/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -531,6 +569,82 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="occurrence_search_pointer">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/occurrence_search_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 occurrence_search_pointer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occurrence_search_pointer/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/occurrence_search_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 occurrence_search_pointer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="max_min_array">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/max_min_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 max_min_array"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="max_min_array/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/max_min_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 max_min_array/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="array_merge">
 				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/array_merge" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
@@ -564,6 +678,82 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_merge/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial_recursive">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/factorial_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial_recursive/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/factorial_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="difference">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/difference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 difference"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="difference/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/difference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 difference/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -678,44 +868,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 dade_game/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello-world">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/hello-world" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello-world/fast">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/hello-world" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -911,8 +1063,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="difference">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/difference" prefix_auto="0" extension_auto="0"/>
+			<Target title="print_for_value_address">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/print_for_value_address" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -924,14 +1076,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 difference"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 print_for_value_address"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="difference/fast">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/difference" prefix_auto="0" extension_auto="0"/>
+			<Target title="print_for_value_address/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/print_for_value_address" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -943,14 +1095,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 difference/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 print_for_value_address/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="factorial_recursive">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/factorial_recursive" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello-world">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/hello-world" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -962,14 +1114,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial_recursive"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="factorial_recursive/fast">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/factorial_recursive" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello-world/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/hello-world" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -981,14 +1133,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial_recursive/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello-world/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="max_min_array">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/max_min_array" prefix_auto="0" extension_auto="0"/>
+			<Target title="pointer_complete">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/pointer_complete" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1000,14 +1152,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 max_min_array"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer_complete"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="max_min_array/fast">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/max_min_array" prefix_auto="0" extension_auto="0"/>
+			<Target title="pointer_complete/fast">
+				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/pointer_complete" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1019,45 +1171,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 max_min_array/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="occurrence_search_pointer">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/occurrence_search_pointer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 occurrence_search_pointer"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="occurrence_search_pointer/fast">
-				<Option output="/home/vscalcione/Scrivania/c-sources/cmake-build-debug/occurrence_search_pointer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vscalcione/Scrivania/c-sources/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 occurrence_search_pointer/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer_complete/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vscalcione/Scrivania/c-sources/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1121,6 +1235,15 @@
 		<Unit filename="/home/vscalcione/Scrivania/c-sources/math-functions/difference.c">
 			<Option target="difference"/>
 		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/pointers/pointer_complete.c">
+			<Option target="pointer_complete"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/pointers/print_for_value_address.c">
+			<Option target="print_for_value_address"/>
+		</Unit>
+		<Unit filename="/home/vscalcione/Scrivania/c-sources/pointers/scientific_calculator_pointers.c">
+			<Option target="scientific_calculator_pointers"/>
+		</Unit>
 		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/factorial_recursive.c">
 			<Option target="factorial_recursive"/>
 		</Unit>
@@ -1137,7 +1260,7 @@
 			<Option target="quozient_recursive"/>
 		</Unit>
 		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/recursion_complete.c">
-			<Option target="ss"/>
+			<Option target="recursion_complete"/>
 		</Unit>
 		<Unit filename="/home/vscalcione/Scrivania/c-sources/recursion/square_recursive.c">
 			<Option target="square_recursive"/>

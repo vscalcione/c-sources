@@ -137,17 +137,17 @@ square_recursive/fast:
 .PHONY : square_recursive/fast
 
 #=============================================================================
-# Target rules for targets named ss
+# Target rules for targets named recursion_complete
 
 # Build rule for target.
-ss: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ss
-.PHONY : ss
+recursion_complete: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 recursion_complete
+.PHONY : recursion_complete
 
 # fast build rule for target.
-ss/fast:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/build
-.PHONY : ss/fast
+recursion_complete/fast:
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/build
+.PHONY : recursion_complete/fast
 
 #=============================================================================
 # Target rules for targets named quozient_recursive
@@ -174,6 +174,19 @@ product_recursive: cmake_check_build_system
 product_recursive/fast:
 	$(MAKE) -f CMakeFiles/product_recursive.dir/build.make CMakeFiles/product_recursive.dir/build
 .PHONY : product_recursive/fast
+
+#=============================================================================
+# Target rules for targets named scientific_calculator_pointers
+
+# Build rule for target.
+scientific_calculator_pointers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scientific_calculator_pointers
+.PHONY : scientific_calculator_pointers
+
+# fast build rule for target.
+scientific_calculator_pointers/fast:
+	$(MAKE) -f CMakeFiles/scientific_calculator_pointers.dir/build.make CMakeFiles/scientific_calculator_pointers.dir/build
+.PHONY : scientific_calculator_pointers/fast
 
 #=============================================================================
 # Target rules for targets named change_2_values
@@ -280,6 +293,32 @@ choice_month/fast:
 .PHONY : choice_month/fast
 
 #=============================================================================
+# Target rules for targets named occurrence_search_pointer
+
+# Build rule for target.
+occurrence_search_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 occurrence_search_pointer
+.PHONY : occurrence_search_pointer
+
+# fast build rule for target.
+occurrence_search_pointer/fast:
+	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/build
+.PHONY : occurrence_search_pointer/fast
+
+#=============================================================================
+# Target rules for targets named max_min_array
+
+# Build rule for target.
+max_min_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 max_min_array
+.PHONY : max_min_array
+
+# fast build rule for target.
+max_min_array/fast:
+	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/build
+.PHONY : max_min_array/fast
+
+#=============================================================================
 # Target rules for targets named array_merge
 
 # Build rule for target.
@@ -291,6 +330,32 @@ array_merge: cmake_check_build_system
 array_merge/fast:
 	$(MAKE) -f CMakeFiles/array_merge.dir/build.make CMakeFiles/array_merge.dir/build
 .PHONY : array_merge/fast
+
+#=============================================================================
+# Target rules for targets named factorial_recursive
+
+# Build rule for target.
+factorial_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 factorial_recursive
+.PHONY : factorial_recursive
+
+# fast build rule for target.
+factorial_recursive/fast:
+	$(MAKE) -f CMakeFiles/factorial_recursive.dir/build.make CMakeFiles/factorial_recursive.dir/build
+.PHONY : factorial_recursive/fast
+
+#=============================================================================
+# Target rules for targets named difference
+
+# Build rule for target.
+difference: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 difference
+.PHONY : difference
+
+# fast build rule for target.
+difference/fast:
+	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/build
+.PHONY : difference/fast
 
 #=============================================================================
 # Target rules for targets named pow_recursive
@@ -330,19 +395,6 @@ dade_game: cmake_check_build_system
 dade_game/fast:
 	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/build
 .PHONY : dade_game/fast
-
-#=============================================================================
-# Target rules for targets named hello-world
-
-# Build rule for target.
-hello-world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello-world
-.PHONY : hello-world
-
-# fast build rule for target.
-hello-world/fast:
-	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
-.PHONY : hello-world/fast
 
 #=============================================================================
 # Target rules for targets named bubble_sorting
@@ -410,56 +462,43 @@ parkimeter/fast:
 .PHONY : parkimeter/fast
 
 #=============================================================================
-# Target rules for targets named difference
+# Target rules for targets named print_for_value_address
 
 # Build rule for target.
-difference: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 difference
-.PHONY : difference
+print_for_value_address: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 print_for_value_address
+.PHONY : print_for_value_address
 
 # fast build rule for target.
-difference/fast:
-	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/build
-.PHONY : difference/fast
+print_for_value_address/fast:
+	$(MAKE) -f CMakeFiles/print_for_value_address.dir/build.make CMakeFiles/print_for_value_address.dir/build
+.PHONY : print_for_value_address/fast
 
 #=============================================================================
-# Target rules for targets named factorial_recursive
+# Target rules for targets named hello-world
 
 # Build rule for target.
-factorial_recursive: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 factorial_recursive
-.PHONY : factorial_recursive
+hello-world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello-world
+.PHONY : hello-world
 
 # fast build rule for target.
-factorial_recursive/fast:
-	$(MAKE) -f CMakeFiles/factorial_recursive.dir/build.make CMakeFiles/factorial_recursive.dir/build
-.PHONY : factorial_recursive/fast
+hello-world/fast:
+	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/build
+.PHONY : hello-world/fast
 
 #=============================================================================
-# Target rules for targets named max_min_array
+# Target rules for targets named pointer_complete
 
 # Build rule for target.
-max_min_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 max_min_array
-.PHONY : max_min_array
+pointer_complete: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pointer_complete
+.PHONY : pointer_complete
 
 # fast build rule for target.
-max_min_array/fast:
-	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/build
-.PHONY : max_min_array/fast
-
-#=============================================================================
-# Target rules for targets named occurrence_search_pointer
-
-# Build rule for target.
-occurrence_search_pointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 occurrence_search_pointer
-.PHONY : occurrence_search_pointer
-
-# fast build rule for target.
-occurrence_search_pointer/fast:
-	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/build
-.PHONY : occurrence_search_pointer/fast
+pointer_complete/fast:
+	$(MAKE) -f CMakeFiles/pointer_complete.dir/build.make CMakeFiles/pointer_complete.dir/build
+.PHONY : pointer_complete/fast
 
 array/array_disorder.o: array/array_disorder.c.o
 
@@ -974,6 +1013,87 @@ math-functions/difference.c.s:
 	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/math-functions/difference.c.s
 .PHONY : math-functions/difference.c.s
 
+pointers/pointer_complete.o: pointers/pointer_complete.c.o
+
+.PHONY : pointers/pointer_complete.o
+
+# target to build an object file
+pointers/pointer_complete.c.o:
+	$(MAKE) -f CMakeFiles/pointer_complete.dir/build.make CMakeFiles/pointer_complete.dir/pointers/pointer_complete.c.o
+.PHONY : pointers/pointer_complete.c.o
+
+pointers/pointer_complete.i: pointers/pointer_complete.c.i
+
+.PHONY : pointers/pointer_complete.i
+
+# target to preprocess a source file
+pointers/pointer_complete.c.i:
+	$(MAKE) -f CMakeFiles/pointer_complete.dir/build.make CMakeFiles/pointer_complete.dir/pointers/pointer_complete.c.i
+.PHONY : pointers/pointer_complete.c.i
+
+pointers/pointer_complete.s: pointers/pointer_complete.c.s
+
+.PHONY : pointers/pointer_complete.s
+
+# target to generate assembly for a file
+pointers/pointer_complete.c.s:
+	$(MAKE) -f CMakeFiles/pointer_complete.dir/build.make CMakeFiles/pointer_complete.dir/pointers/pointer_complete.c.s
+.PHONY : pointers/pointer_complete.c.s
+
+pointers/print_for_value_address.o: pointers/print_for_value_address.c.o
+
+.PHONY : pointers/print_for_value_address.o
+
+# target to build an object file
+pointers/print_for_value_address.c.o:
+	$(MAKE) -f CMakeFiles/print_for_value_address.dir/build.make CMakeFiles/print_for_value_address.dir/pointers/print_for_value_address.c.o
+.PHONY : pointers/print_for_value_address.c.o
+
+pointers/print_for_value_address.i: pointers/print_for_value_address.c.i
+
+.PHONY : pointers/print_for_value_address.i
+
+# target to preprocess a source file
+pointers/print_for_value_address.c.i:
+	$(MAKE) -f CMakeFiles/print_for_value_address.dir/build.make CMakeFiles/print_for_value_address.dir/pointers/print_for_value_address.c.i
+.PHONY : pointers/print_for_value_address.c.i
+
+pointers/print_for_value_address.s: pointers/print_for_value_address.c.s
+
+.PHONY : pointers/print_for_value_address.s
+
+# target to generate assembly for a file
+pointers/print_for_value_address.c.s:
+	$(MAKE) -f CMakeFiles/print_for_value_address.dir/build.make CMakeFiles/print_for_value_address.dir/pointers/print_for_value_address.c.s
+.PHONY : pointers/print_for_value_address.c.s
+
+pointers/scientific_calculator_pointers.o: pointers/scientific_calculator_pointers.c.o
+
+.PHONY : pointers/scientific_calculator_pointers.o
+
+# target to build an object file
+pointers/scientific_calculator_pointers.c.o:
+	$(MAKE) -f CMakeFiles/scientific_calculator_pointers.dir/build.make CMakeFiles/scientific_calculator_pointers.dir/pointers/scientific_calculator_pointers.c.o
+.PHONY : pointers/scientific_calculator_pointers.c.o
+
+pointers/scientific_calculator_pointers.i: pointers/scientific_calculator_pointers.c.i
+
+.PHONY : pointers/scientific_calculator_pointers.i
+
+# target to preprocess a source file
+pointers/scientific_calculator_pointers.c.i:
+	$(MAKE) -f CMakeFiles/scientific_calculator_pointers.dir/build.make CMakeFiles/scientific_calculator_pointers.dir/pointers/scientific_calculator_pointers.c.i
+.PHONY : pointers/scientific_calculator_pointers.c.i
+
+pointers/scientific_calculator_pointers.s: pointers/scientific_calculator_pointers.c.s
+
+.PHONY : pointers/scientific_calculator_pointers.s
+
+# target to generate assembly for a file
+pointers/scientific_calculator_pointers.c.s:
+	$(MAKE) -f CMakeFiles/scientific_calculator_pointers.dir/build.make CMakeFiles/scientific_calculator_pointers.dir/pointers/scientific_calculator_pointers.c.s
+.PHONY : pointers/scientific_calculator_pointers.c.s
+
 recursion/factorial_recursive.o: recursion/factorial_recursive.c.o
 
 .PHONY : recursion/factorial_recursive.o
@@ -1115,7 +1235,7 @@ recursion/recursion_complete.o: recursion/recursion_complete.c.o
 
 # target to build an object file
 recursion/recursion_complete.c.o:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.o
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/recursion/recursion_complete.c.o
 .PHONY : recursion/recursion_complete.c.o
 
 recursion/recursion_complete.i: recursion/recursion_complete.c.i
@@ -1124,7 +1244,7 @@ recursion/recursion_complete.i: recursion/recursion_complete.c.i
 
 # target to preprocess a source file
 recursion/recursion_complete.c.i:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.i
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/recursion/recursion_complete.c.i
 .PHONY : recursion/recursion_complete.c.i
 
 recursion/recursion_complete.s: recursion/recursion_complete.c.s
@@ -1133,7 +1253,7 @@ recursion/recursion_complete.s: recursion/recursion_complete.c.s
 
 # target to generate assembly for a file
 recursion/recursion_complete.c.s:
-	$(MAKE) -f CMakeFiles/ss.dir/build.make CMakeFiles/ss.dir/recursion/recursion_complete.c.s
+	$(MAKE) -f CMakeFiles/recursion_complete.dir/build.make CMakeFiles/recursion_complete.dir/recursion/recursion_complete.c.s
 .PHONY : recursion/recursion_complete.c.s
 
 recursion/square_recursive.o: recursion/square_recursive.c.o
@@ -1199,9 +1319,10 @@ help:
 	@echo "... sum_recursive"
 	@echo "... rebuild_cache"
 	@echo "... square_recursive"
-	@echo "... ss"
+	@echo "... recursion_complete"
 	@echo "... quozient_recursive"
 	@echo "... product_recursive"
+	@echo "... scientific_calculator_pointers"
 	@echo "... change_2_values"
 	@echo "... copy_string"
 	@echo "... supermarket_checkout"
@@ -1211,20 +1332,22 @@ help:
 	@echo "... array_disorder"
 	@echo "... average_4_arrays"
 	@echo "... choice_month"
+	@echo "... occurrence_search_pointer"
+	@echo "... max_min_array"
 	@echo "... array_merge"
+	@echo "... factorial_recursive"
+	@echo "... difference"
 	@echo "... pow_recursive"
 	@echo "... asterisks_square"
 	@echo "... dade_game"
-	@echo "... hello-world"
 	@echo "... bubble_sorting"
 	@echo "... fibonacci_sequence"
 	@echo "... scientific-calculator"
 	@echo "... random_values_generator"
 	@echo "... parkimeter"
-	@echo "... difference"
-	@echo "... factorial_recursive"
-	@echo "... max_min_array"
-	@echo "... occurrence_search_pointer"
+	@echo "... print_for_value_address"
+	@echo "... hello-world"
+	@echo "... pointer_complete"
 	@echo "... array/array_disorder.o"
 	@echo "... array/array_disorder.i"
 	@echo "... array/array_disorder.s"
@@ -1282,6 +1405,15 @@ help:
 	@echo "... math-functions/difference.o"
 	@echo "... math-functions/difference.i"
 	@echo "... math-functions/difference.s"
+	@echo "... pointers/pointer_complete.o"
+	@echo "... pointers/pointer_complete.i"
+	@echo "... pointers/pointer_complete.s"
+	@echo "... pointers/print_for_value_address.o"
+	@echo "... pointers/print_for_value_address.i"
+	@echo "... pointers/print_for_value_address.s"
+	@echo "... pointers/scientific_calculator_pointers.o"
+	@echo "... pointers/scientific_calculator_pointers.i"
+	@echo "... pointers/scientific_calculator_pointers.s"
 	@echo "... recursion/factorial_recursive.o"
 	@echo "... recursion/factorial_recursive.i"
 	@echo "... recursion/factorial_recursive.s"

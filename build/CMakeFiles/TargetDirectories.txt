@@ -1,7 +1,7 @@
 /home/vscalcione/Scrivania/c-sources/build/CMakeFiles/rebuild_cache.dir
 /home/vscalcione/Scrivania/c-sources/build/CMakeFiles/edit_cache.dir
 /home/vscalcione/Scrivania/c-sources/build/CMakeFiles/square_recursive.dir
-/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/ss.dir
+/home/vscalcione/Scrivania/c-sources/build/CMakeFiles/recursion_complete.dir
 /home/vscalcione/Scrivania/c-sources/build/CMakeFiles/pow_recursive.dir
 /home/vscalcione/Scrivania/c-sources/build/CMakeFiles/factorial_recursive.dir
 /home/vscalcione/Scrivania/c-sources/build/CMakeFiles/difference.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/scientific_calculator_pointers.dir/pointers/scientific_calculator_pointers.c.o  -o scientific_calculator_pointers 
