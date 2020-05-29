@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vscalcione/Scrivania/c-sources/recursion/factorial_recursive.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

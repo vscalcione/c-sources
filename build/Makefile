@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pow_recursive
+
+# Build rule for target.
+pow_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pow_recursive
+.PHONY : pow_recursive
+
+# fast build rule for target.
+pow_recursive/fast:
+	$(MAKE) -f CMakeFiles/pow_recursive.dir/build.make CMakeFiles/pow_recursive.dir/build
+.PHONY : pow_recursive/fast
+
+#=============================================================================
+# Target rules for targets named factorial_recursive
+
+# Build rule for target.
+factorial_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 factorial_recursive
+.PHONY : factorial_recursive
+
+# fast build rule for target.
+factorial_recursive/fast:
+	$(MAKE) -f CMakeFiles/factorial_recursive.dir/build.make CMakeFiles/factorial_recursive.dir/build
+.PHONY : factorial_recursive/fast
+
+#=============================================================================
 # Target rules for targets named difference
 
 # Build rule for target.
@@ -137,19 +163,6 @@ cube/fast:
 .PHONY : cube/fast
 
 #=============================================================================
-# Target rules for targets named copy_string
-
-# Build rule for target.
-copy_string: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 copy_string
-.PHONY : copy_string
-
-# fast build rule for target.
-copy_string/fast:
-	$(MAKE) -f CMakeFiles/copy_string.dir/build.make CMakeFiles/copy_string.dir/build
-.PHONY : copy_string/fast
-
-#=============================================================================
 # Target rules for targets named max_min_array
 
 # Build rule for target.
@@ -161,6 +174,19 @@ max_min_array: cmake_check_build_system
 max_min_array/fast:
 	$(MAKE) -f CMakeFiles/max_min_array.dir/build.make CMakeFiles/max_min_array.dir/build
 .PHONY : max_min_array/fast
+
+#=============================================================================
+# Target rules for targets named copy_string
+
+# Build rule for target.
+copy_string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 copy_string
+.PHONY : copy_string
+
+# fast build rule for target.
+copy_string/fast:
+	$(MAKE) -f CMakeFiles/copy_string.dir/build.make CMakeFiles/copy_string.dir/build
+.PHONY : copy_string/fast
 
 #=============================================================================
 # Target rules for targets named array_disorder
@@ -202,19 +228,6 @@ average_4_arrays/fast:
 .PHONY : average_4_arrays/fast
 
 #=============================================================================
-# Target rules for targets named dade_game
-
-# Build rule for target.
-dade_game: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dade_game
-.PHONY : dade_game
-
-# fast build rule for target.
-dade_game/fast:
-	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/build
-.PHONY : dade_game/fast
-
-#=============================================================================
 # Target rules for targets named load_print_array
 
 # Build rule for target.
@@ -254,19 +267,6 @@ fibonacci_sequence/fast:
 .PHONY : fibonacci_sequence/fast
 
 #=============================================================================
-# Target rules for targets named scientific-calculator
-
-# Build rule for target.
-scientific-calculator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 scientific-calculator
-.PHONY : scientific-calculator
-
-# fast build rule for target.
-scientific-calculator/fast:
-	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/build
-.PHONY : scientific-calculator/fast
-
-#=============================================================================
 # Target rules for targets named supermarket_checkout
 
 # Build rule for target.
@@ -280,6 +280,19 @@ supermarket_checkout/fast:
 .PHONY : supermarket_checkout/fast
 
 #=============================================================================
+# Target rules for targets named scientific-calculator
+
+# Build rule for target.
+scientific-calculator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scientific-calculator
+.PHONY : scientific-calculator
+
+# fast build rule for target.
+scientific-calculator/fast:
+	$(MAKE) -f CMakeFiles/scientific-calculator.dir/build.make CMakeFiles/scientific-calculator.dir/build
+.PHONY : scientific-calculator/fast
+
+#=============================================================================
 # Target rules for targets named choice_month
 
 # Build rule for target.
@@ -291,6 +304,45 @@ choice_month: cmake_check_build_system
 choice_month/fast:
 	$(MAKE) -f CMakeFiles/choice_month.dir/build.make CMakeFiles/choice_month.dir/build
 .PHONY : choice_month/fast
+
+#=============================================================================
+# Target rules for targets named occurrence_search_pointer
+
+# Build rule for target.
+occurrence_search_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 occurrence_search_pointer
+.PHONY : occurrence_search_pointer
+
+# fast build rule for target.
+occurrence_search_pointer/fast:
+	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/build
+.PHONY : occurrence_search_pointer/fast
+
+#=============================================================================
+# Target rules for targets named dade_game
+
+# Build rule for target.
+dade_game: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dade_game
+.PHONY : dade_game
+
+# fast build rule for target.
+dade_game/fast:
+	$(MAKE) -f CMakeFiles/dade_game.dir/build.make CMakeFiles/dade_game.dir/build
+.PHONY : dade_game/fast
+
+#=============================================================================
+# Target rules for targets named parkimeter
+
+# Build rule for target.
+parkimeter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parkimeter
+.PHONY : parkimeter
+
+# fast build rule for target.
+parkimeter/fast:
+	$(MAKE) -f CMakeFiles/parkimeter.dir/build.make CMakeFiles/parkimeter.dir/build
+.PHONY : parkimeter/fast
 
 #=============================================================================
 # Target rules for targets named hello-world
@@ -615,6 +667,33 @@ exercises/hello-world.c.s:
 	$(MAKE) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/exercises/hello-world.c.s
 .PHONY : exercises/hello-world.c.s
 
+exercises/parkimeter.o: exercises/parkimeter.c.o
+
+.PHONY : exercises/parkimeter.o
+
+# target to build an object file
+exercises/parkimeter.c.o:
+	$(MAKE) -f CMakeFiles/parkimeter.dir/build.make CMakeFiles/parkimeter.dir/exercises/parkimeter.c.o
+.PHONY : exercises/parkimeter.c.o
+
+exercises/parkimeter.i: exercises/parkimeter.c.i
+
+.PHONY : exercises/parkimeter.i
+
+# target to preprocess a source file
+exercises/parkimeter.c.i:
+	$(MAKE) -f CMakeFiles/parkimeter.dir/build.make CMakeFiles/parkimeter.dir/exercises/parkimeter.c.i
+.PHONY : exercises/parkimeter.c.i
+
+exercises/parkimeter.s: exercises/parkimeter.c.s
+
+.PHONY : exercises/parkimeter.s
+
+# target to generate assembly for a file
+exercises/parkimeter.c.s:
+	$(MAKE) -f CMakeFiles/parkimeter.dir/build.make CMakeFiles/parkimeter.dir/exercises/parkimeter.c.s
+.PHONY : exercises/parkimeter.c.s
+
 exercises/random_values_generator.o: exercises/random_values_generator.c.o
 
 .PHONY : exercises/random_values_generator.o
@@ -750,6 +829,87 @@ math-functions/difference.c.s:
 	$(MAKE) -f CMakeFiles/difference.dir/build.make CMakeFiles/difference.dir/math-functions/difference.c.s
 .PHONY : math-functions/difference.c.s
 
+recursion/factorial_recursive.o: recursion/factorial_recursive.c.o
+
+.PHONY : recursion/factorial_recursive.o
+
+# target to build an object file
+recursion/factorial_recursive.c.o:
+	$(MAKE) -f CMakeFiles/factorial_recursive.dir/build.make CMakeFiles/factorial_recursive.dir/recursion/factorial_recursive.c.o
+.PHONY : recursion/factorial_recursive.c.o
+
+recursion/factorial_recursive.i: recursion/factorial_recursive.c.i
+
+.PHONY : recursion/factorial_recursive.i
+
+# target to preprocess a source file
+recursion/factorial_recursive.c.i:
+	$(MAKE) -f CMakeFiles/factorial_recursive.dir/build.make CMakeFiles/factorial_recursive.dir/recursion/factorial_recursive.c.i
+.PHONY : recursion/factorial_recursive.c.i
+
+recursion/factorial_recursive.s: recursion/factorial_recursive.c.s
+
+.PHONY : recursion/factorial_recursive.s
+
+# target to generate assembly for a file
+recursion/factorial_recursive.c.s:
+	$(MAKE) -f CMakeFiles/factorial_recursive.dir/build.make CMakeFiles/factorial_recursive.dir/recursion/factorial_recursive.c.s
+.PHONY : recursion/factorial_recursive.c.s
+
+recursion/occurrence_search_pointers.o: recursion/occurrence_search_pointers.c.o
+
+.PHONY : recursion/occurrence_search_pointers.o
+
+# target to build an object file
+recursion/occurrence_search_pointers.c.o:
+	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/recursion/occurrence_search_pointers.c.o
+.PHONY : recursion/occurrence_search_pointers.c.o
+
+recursion/occurrence_search_pointers.i: recursion/occurrence_search_pointers.c.i
+
+.PHONY : recursion/occurrence_search_pointers.i
+
+# target to preprocess a source file
+recursion/occurrence_search_pointers.c.i:
+	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/recursion/occurrence_search_pointers.c.i
+.PHONY : recursion/occurrence_search_pointers.c.i
+
+recursion/occurrence_search_pointers.s: recursion/occurrence_search_pointers.c.s
+
+.PHONY : recursion/occurrence_search_pointers.s
+
+# target to generate assembly for a file
+recursion/occurrence_search_pointers.c.s:
+	$(MAKE) -f CMakeFiles/occurrence_search_pointer.dir/build.make CMakeFiles/occurrence_search_pointer.dir/recursion/occurrence_search_pointers.c.s
+.PHONY : recursion/occurrence_search_pointers.c.s
+
+recursion/pow_recursive.o: recursion/pow_recursive.c.o
+
+.PHONY : recursion/pow_recursive.o
+
+# target to build an object file
+recursion/pow_recursive.c.o:
+	$(MAKE) -f CMakeFiles/pow_recursive.dir/build.make CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.o
+.PHONY : recursion/pow_recursive.c.o
+
+recursion/pow_recursive.i: recursion/pow_recursive.c.i
+
+.PHONY : recursion/pow_recursive.i
+
+# target to preprocess a source file
+recursion/pow_recursive.c.i:
+	$(MAKE) -f CMakeFiles/pow_recursive.dir/build.make CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.i
+.PHONY : recursion/pow_recursive.c.i
+
+recursion/pow_recursive.s: recursion/pow_recursive.c.s
+
+.PHONY : recursion/pow_recursive.s
+
+# target to generate assembly for a file
+recursion/pow_recursive.c.s:
+	$(MAKE) -f CMakeFiles/pow_recursive.dir/build.make CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.s
+.PHONY : recursion/pow_recursive.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -758,20 +918,24 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... pow_recursive"
+	@echo "... factorial_recursive"
 	@echo "... difference"
 	@echo "... cube"
-	@echo "... copy_string"
 	@echo "... max_min_array"
+	@echo "... copy_string"
 	@echo "... array_disorder"
 	@echo "... array_merge"
 	@echo "... average_4_arrays"
-	@echo "... dade_game"
 	@echo "... load_print_array"
 	@echo "... change_2_values"
 	@echo "... fibonacci_sequence"
-	@echo "... scientific-calculator"
 	@echo "... supermarket_checkout"
+	@echo "... scientific-calculator"
 	@echo "... choice_month"
+	@echo "... occurrence_search_pointer"
+	@echo "... dade_game"
+	@echo "... parkimeter"
 	@echo "... hello-world"
 	@echo "... random_values_generator"
 	@echo "... array/array_disorder.o"
@@ -807,6 +971,9 @@ help:
 	@echo "... exercises/hello-world.o"
 	@echo "... exercises/hello-world.i"
 	@echo "... exercises/hello-world.s"
+	@echo "... exercises/parkimeter.o"
+	@echo "... exercises/parkimeter.i"
+	@echo "... exercises/parkimeter.s"
 	@echo "... exercises/random_values_generator.o"
 	@echo "... exercises/random_values_generator.i"
 	@echo "... exercises/random_values_generator.s"
@@ -822,6 +989,15 @@ help:
 	@echo "... math-functions/difference.o"
 	@echo "... math-functions/difference.i"
 	@echo "... math-functions/difference.s"
+	@echo "... recursion/factorial_recursive.o"
+	@echo "... recursion/factorial_recursive.i"
+	@echo "... recursion/factorial_recursive.s"
+	@echo "... recursion/occurrence_search_pointers.o"
+	@echo "... recursion/occurrence_search_pointers.i"
+	@echo "... recursion/occurrence_search_pointers.s"
+	@echo "... recursion/pow_recursive.o"
+	@echo "... recursion/pow_recursive.i"
+	@echo "... recursion/pow_recursive.s"
 .PHONY : help
 
 

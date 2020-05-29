@@ -141,6 +141,6 @@ float base_at_exponent(float base, float exponent){
     if(exponent == 0){
         return 1;
     }else{
-        return base * pow(base, exponent - 1);
+        return base * base_at_exponent(base, exponent - 1);
     }
 }

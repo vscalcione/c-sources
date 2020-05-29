@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/pow_recursive.dir/recursion/pow_recursive.c.o  -o pow_recursive 

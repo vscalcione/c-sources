@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/phonebook.dir/exercises/phonebook.c.o  -o phonebook 
