@@ -2,6 +2,7 @@ C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/scie
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/array_disorder.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/choice_month.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/change_2_values.dir
+C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/factorial_recursive.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/load_print_array.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/dade_game.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/max_min_array.dir
@@ -11,10 +12,12 @@ C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/aver
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/copy_string.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/hello-world.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/parkimeter.dir
+C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/pow_recursive.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/phonebook.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/random_values_generator.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/supermarket_checkout.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/cube.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/difference.dir
+C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/occurrence_search_pointer.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/francesco/Desktop/c-project/c-sources/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -26,3 +26,8 @@ add_executable(supermarket_checkout ./exercises/supermarket_checkout.c)
 ## Math-functions directory
 add_executable(cube ./math-functions/cube.c)
 add_executable(difference ./math-functions/difference.c)
+
+## Recursion directory
+add_executable(factorial_recursive ./recursion/factorial_recursive.c)
+add_executable(occurrence_search_pointer ./recursion/occurrence_search_pointers.c)
+add_executable(pow_recursive ./recursion/pow_recursive.c)

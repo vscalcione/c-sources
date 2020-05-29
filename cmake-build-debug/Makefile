@@ -164,6 +164,19 @@ change_2_values\fast:
 .PHONY : change_2_values\fast
 
 #=============================================================================
+# Target rules for targets named factorial_recursive
+
+# Build rule for target.
+factorial_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) factorial_recursive
+.PHONY : factorial_recursive
+
+# fast build rule for target.
+factorial_recursive\fast:
+	$(MAKE) -f CMakeFiles\factorial_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\factorial_recursive.dir\build
+.PHONY : factorial_recursive\fast
+
+#=============================================================================
 # Target rules for targets named load_print_array
 
 # Build rule for target.
@@ -281,6 +294,19 @@ parkimeter\fast:
 .PHONY : parkimeter\fast
 
 #=============================================================================
+# Target rules for targets named pow_recursive
+
+# Build rule for target.
+pow_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pow_recursive
+.PHONY : pow_recursive
+
+# fast build rule for target.
+pow_recursive\fast:
+	$(MAKE) -f CMakeFiles\pow_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pow_recursive.dir\build
+.PHONY : pow_recursive\fast
+
+#=============================================================================
 # Target rules for targets named phonebook
 
 # Build rule for target.
@@ -344,6 +370,19 @@ difference: cmake_check_build_system
 difference\fast:
 	$(MAKE) -f CMakeFiles\difference.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\difference.dir\build
 .PHONY : difference\fast
+
+#=============================================================================
+# Target rules for targets named occurrence_search_pointer
+
+# Build rule for target.
+occurrence_search_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) occurrence_search_pointer
+.PHONY : occurrence_search_pointer
+
+# fast build rule for target.
+occurrence_search_pointer\fast:
+	$(MAKE) -f CMakeFiles\occurrence_search_pointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\occurrence_search_pointer.dir\build
+.PHONY : occurrence_search_pointer\fast
 
 array\array_disorder.obj: array\array_disorder.c.obj
 
@@ -831,6 +870,87 @@ math-functions\difference.c.s:
 	$(MAKE) -f CMakeFiles\difference.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\difference.dir\math-functions\difference.c.s
 .PHONY : math-functions\difference.c.s
 
+recursion\factorial_recursive.obj: recursion\factorial_recursive.c.obj
+
+.PHONY : recursion\factorial_recursive.obj
+
+# target to build an object file
+recursion\factorial_recursive.c.obj:
+	$(MAKE) -f CMakeFiles\factorial_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\factorial_recursive.dir\recursion\factorial_recursive.c.obj
+.PHONY : recursion\factorial_recursive.c.obj
+
+recursion\factorial_recursive.i: recursion\factorial_recursive.c.i
+
+.PHONY : recursion\factorial_recursive.i
+
+# target to preprocess a source file
+recursion\factorial_recursive.c.i:
+	$(MAKE) -f CMakeFiles\factorial_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\factorial_recursive.dir\recursion\factorial_recursive.c.i
+.PHONY : recursion\factorial_recursive.c.i
+
+recursion\factorial_recursive.s: recursion\factorial_recursive.c.s
+
+.PHONY : recursion\factorial_recursive.s
+
+# target to generate assembly for a file
+recursion\factorial_recursive.c.s:
+	$(MAKE) -f CMakeFiles\factorial_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\factorial_recursive.dir\recursion\factorial_recursive.c.s
+.PHONY : recursion\factorial_recursive.c.s
+
+recursion\occurrence_search_pointers.obj: recursion\occurrence_search_pointers.c.obj
+
+.PHONY : recursion\occurrence_search_pointers.obj
+
+# target to build an object file
+recursion\occurrence_search_pointers.c.obj:
+	$(MAKE) -f CMakeFiles\occurrence_search_pointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\occurrence_search_pointer.dir\recursion\occurrence_search_pointers.c.obj
+.PHONY : recursion\occurrence_search_pointers.c.obj
+
+recursion\occurrence_search_pointers.i: recursion\occurrence_search_pointers.c.i
+
+.PHONY : recursion\occurrence_search_pointers.i
+
+# target to preprocess a source file
+recursion\occurrence_search_pointers.c.i:
+	$(MAKE) -f CMakeFiles\occurrence_search_pointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\occurrence_search_pointer.dir\recursion\occurrence_search_pointers.c.i
+.PHONY : recursion\occurrence_search_pointers.c.i
+
+recursion\occurrence_search_pointers.s: recursion\occurrence_search_pointers.c.s
+
+.PHONY : recursion\occurrence_search_pointers.s
+
+# target to generate assembly for a file
+recursion\occurrence_search_pointers.c.s:
+	$(MAKE) -f CMakeFiles\occurrence_search_pointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\occurrence_search_pointer.dir\recursion\occurrence_search_pointers.c.s
+.PHONY : recursion\occurrence_search_pointers.c.s
+
+recursion\pow_recursive.obj: recursion\pow_recursive.c.obj
+
+.PHONY : recursion\pow_recursive.obj
+
+# target to build an object file
+recursion\pow_recursive.c.obj:
+	$(MAKE) -f CMakeFiles\pow_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pow_recursive.dir\recursion\pow_recursive.c.obj
+.PHONY : recursion\pow_recursive.c.obj
+
+recursion\pow_recursive.i: recursion\pow_recursive.c.i
+
+.PHONY : recursion\pow_recursive.i
+
+# target to preprocess a source file
+recursion\pow_recursive.c.i:
+	$(MAKE) -f CMakeFiles\pow_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pow_recursive.dir\recursion\pow_recursive.c.i
+.PHONY : recursion\pow_recursive.c.i
+
+recursion\pow_recursive.s: recursion\pow_recursive.c.s
+
+.PHONY : recursion\pow_recursive.s
+
+# target to generate assembly for a file
+recursion\pow_recursive.c.s:
+	$(MAKE) -f CMakeFiles\pow_recursive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\pow_recursive.dir\recursion\pow_recursive.c.s
+.PHONY : recursion\pow_recursive.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -841,6 +961,7 @@ help:
 	@echo ... array_disorder
 	@echo ... choice_month
 	@echo ... change_2_values
+	@echo ... factorial_recursive
 	@echo ... load_print_array
 	@echo ... dade_game
 	@echo ... max_min_array
@@ -850,11 +971,13 @@ help:
 	@echo ... copy_string
 	@echo ... hello-world
 	@echo ... parkimeter
+	@echo ... pow_recursive
 	@echo ... phonebook
 	@echo ... random_values_generator
 	@echo ... supermarket_checkout
 	@echo ... cube
 	@echo ... difference
+	@echo ... occurrence_search_pointer
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... array/array_disorder.obj
@@ -911,6 +1034,15 @@ help:
 	@echo ... math-functions/difference.obj
 	@echo ... math-functions/difference.i
 	@echo ... math-functions/difference.s
+	@echo ... recursion/factorial_recursive.obj
+	@echo ... recursion/factorial_recursive.i
+	@echo ... recursion/factorial_recursive.s
+	@echo ... recursion/occurrence_search_pointers.obj
+	@echo ... recursion/occurrence_search_pointers.i
+	@echo ... recursion/occurrence_search_pointers.s
+	@echo ... recursion/pow_recursive.obj
+	@echo ... recursion/pow_recursive.i
+	@echo ... recursion/pow_recursive.s
 .PHONY : help
 
 
