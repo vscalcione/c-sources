@@ -28,3 +28,19 @@ After that, you can run the command:
 $ ./{fileName}
 ```
 and our program will run independently
+
+# To do
+### Array
+- [ ] Max and min search with position array
+- [ ] Occurrence search array
+- [ ] Optimized search array
+- [ ] Selection sorting array
+- [ ] Sum and average 3 arrays
+- [ ] Sum and average arrays element
+
+###  Exercises
+- [ ] Battleship
+- [ ] Compare string
+- [ ] Difference
+- [ ] Guess the number - the game
+- [ ] Guess the world - the game
